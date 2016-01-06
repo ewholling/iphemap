@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
+</head>
+<body>
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="search">iPhemap</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Active</a></li> -->
+          <li><a href="/">About</a></li>
+          <li><a href="/faqs">FAQ's</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/studies">Studies</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/">Research</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+        <div class="clearfix">
+        <a href="search">
+            <img src="static/img/icon2.png" style="width: 100px; float: left;">
+            <h1 style="float: left;"><span style="color:#4A61B8;">iP</span><span style="color: #D56944;">hemap</span></h1>
+        </a>
+        </div>
+        <br>
+      <!-- <h1>About</h1> -->
+      <h1>Studies</h1>
+      <p>Published Studies. More text shown here.</p>
+      <div>
+        <table class="responsive">
+          <tr>
+            <th><a href="studies?sort=first_author">First Author</a></th>
+            <th><a href="studies?sort=species">Species</a></th>
+            <th><a href="studies?sort=year">Year</a></th>
+            <th><a href="studies?sort=experiment_type">Experiment Type</a></th>
+            <th><a href="studies?sort=starting_cell_type">Starting Cell Type</a></th>
+            <th><a href="studies?sort=target_cell_type">Target Cell Type</a></th>
+            <th><a href="studies?sort=geoid">GEO ID</a></th>
+            <th><a href="studies?sort=platform_name">Platform Name</a></th>
+            <th><a href="studies?sort=platform_geo_id">Platform GEO</a></th>
+            <th><a href="studies?sort=pmid">PMID</a></th>
+          </tr>
+          {% for study in studies %}
+          {% if study.pmid == selected_pmid %}
+          <tr style="border: 3px solid #000;" id="{{ study.pmid }}">
+          {% else %}
+          <tr id="{{ study.pmid }}">
+          {% endif %}
+            <td>{{ study.first_author }}</td>
+            <td>{{ study.species }}</td>
+            <td>{{ study.year }}</td>
+            <td>{{ study.experiment_type }}</td>
+            <td>{{ study.starting_cell_type }}</td>
+            <td>{{ study.target_cell_type }}</td>
+            
+            <td><a href="{{ study.geoid_link }}">{{ study.geoid }}</a></td>
+            <td>{{ study.platform_name }}</td>
+            <td><a href="{{ study.platform_geoid_link }}">{{ study.platform_geo_id }}</a></td>
+            <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={{ study.pmid }}">{{ study.pmid }}</a></td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
+

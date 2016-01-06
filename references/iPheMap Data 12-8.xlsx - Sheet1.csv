@@ -1,0 +1,160 @@
+Gene,Disease,Mutation,PMID,Phenotypes
+APP,Alzheimer's,Duplication,PMID: 25285942,Decreased amount of Aβ42 in NSCs after treatment with γ-secretase modulator
+,,,,Decreased amount of Aβ40 in NSCs after treatment with γ-secretase modulator
+,,,,Decreased amount of Aβ38 in NSCs after treatment with γ-secretase modulator
+PSEN1,Alzheimer's,A246E,PMID: 25285942,Decreased amount of Aβ42 in iPSCs after treatment with γ-secretase modulator
+,,,,Decreased amount of Aβ40 in iPSCs after treatment with  γ-secretase modulator
+,,,,Decreased amount of Aβ38 in iPSCs after treatment with γ-secretase modulator
+,,,,Decreased Aβ42:Aβ40 ratio in iPSCs after treatment with γ-secretase modulator
+,,,,Increased amount of Aβ42 in neurons
+,,,,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Decreased amount of Aβ40 in neurons after treatment with γ-secretase modulator
+,,,,Decreased amount of Aβ38 in neurons after treatment with γ-secretase modulator
+,,,,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+,,,,Decreased amount of extracellular Aβ 42 by neurons after treatment with γ-secretase modulator 
+,,,,Decreased amount of extracellular Aβ 40 by neurons after treatment with γ-secretase modulator 
+,,,,Decreased amount of Aβ 42 in neurons after treatment with γ-secretase inhibitor 
+,,,,Decreased amount of Aβ 40 in neurons after treatment with γ-secretase inhibitor 
+,,,,Decreased amount of Aβ 38 in neurons after treatment with γ-secretase inhibitor 
+,,,,Decreased amount of total Aβ in neurons after treatment with γ-secretase inhibitor 
+,,,,Increased production of Aβ39 in neurons after treatment with γ-secretase modulator
+,,,,Increased production of Aβ37 in neurons after treatment with γ-secretase modulator
+,,,,Increased Aβ42/40 ratio in neurons
+PSEN1,Alzheimer's,H163R,PMID: 25285942,Increased Aβ42/40 ratio in neurons
+,,,,Increased amount of Aβ42 in neurons
+,,,,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+PSEN1,Alzheimer's,M146L,PMID: 25285942,Increased Aβ42/40 ratio in neurons
+,,,,Increased amount of Aβ42 in neurons
+,,,,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+SMN1,Spinal Muscular Atrophy,Deletion of exons 7 and 8,PMID:26190808,Increased excitability in neurons
+,,,,Increased membrane resistance in motor neurons
+,,,,Decrease in Na+ channel inactivation recovery time in motor neurons
+,,,,Increased Na+ current in motor neurons
+MeCP2,Rett Syndrome,T158M,PMID: 21966470,Absence of random X-inactivation in neurons
+MeCP2,Rett Syndrome,V247X,PMID: 21966470,Absence of random X-inactivation in neurons
+MeCP2,Rett Syndrome,R306C,PMID: 21966470,Absence of random X-inactivation in neurons
+MeCP2,Rett Syndrome,R294X,PMID: 21966470,Absence of random X-inactivation in neurons
+,,,,Decreased nuclear size in neurons
+MAPT,Frontotemporal Dementia,N279K,PMID: 26143746,Increased susceptibility of neurons to rotenone mediated-apoptosis
+,,,,Increased ER stress in neurons
+,,,,Decrease in size of neurites in neurons
+,,,,Decreased neurite complexity in neurons
+,,,,Increased fragmentation of TAU protein in neurons
+,,,,Increased susceptibility to oxidative stress after treatment with rotenone in neurons
+,,,,Recovery from oxidative stress after treatment with antioxidant coenzyme Q10 in neurons
+,,,,Recovery from oxidative stress after treatment with GSK-3 inhibitor CHIR99021 in neurons
+MAPT,Frontotemporal Dementia,V337M,PMID: 26143746,Increased susceptibility of neurons to rotenone mediated-apoptosis
+,,,,Increased ER stress in neurons
+,,,,Decrease in size of neurites in neurons
+,,,,Decreased neurite complexity in neurons
+,,,,Increased fragmentation of TAU protein in neurons
+,,,,Increased susceptibility to oxidative stress after treatment with rotenone in neurons
+,,,,Recovery from oxidative stress after treatment with antioxidant coenzyme Q10 in neurons
+,,,,Recovery from oxidative stress after treatment with GSK-3 inhibitor CHIR99021 in neurons
+TDP-43,Amyotrophic Lateral Sclerosis,(not specified),PMID: 25580746,Increased excitability in neurons
+,,,,Decreased action potential output in motor neurons
+,,,,Decreased synaptic input in motor neurons
+,,,,Decreased Na+ currents in motor neurons
+,,,,Decreased K+ currents in motor neurons
+,,,,Decreased synaptic activity in motor neurons
+C9ORF72,Amyotrophic Lateral Sclerosis,GGGGCC repeats,PMID: 25580746,Increased excitability in neurons
+,,,,Decreased action potential output in motor neurons
+,,,,Decreased synaptic input in motor neurons
+,,,,Decreased Na+ currents in motor neurons
+,,,,Decreased K+ currents in motor neurons
+,,,,Decreased synaptic activity in motor neurons
+FUS,Amyotrophic Lateral Sclerosis,P525L,PMID: 25912081,Presence of mis-localized FUS protein in the cytoplasm of motor neurons
+,,,,Accumulation of FUS cytoplasmic aggregates in motor neurons
+FUS,Amyotrophic Lateral Sclerosis,R514S,PMID: 26035390,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+,,,,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+FUS,Amyotrophic Lateral Sclerosis,R521C,PMID: 26035390,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+,,,,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+FUS,Amyotrophic Lateral Sclerosis,P525L,PMID: 26035390,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+,,,,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+CACNA1C,Timothy Syndrome,CaV1.2,PMID: 23313911,Decrease in dendritic length upon depolarization in neurons
+PLP1,Pelizaeus-Merzbacher Disease,Missense,PMID: 24936452,Presence of mislocalization of PLP1 protein to the ER in oligodendrocytes
+,,,,Increased susceptibility to ER stress induced by exposure to tunicamycin in oligodendrocytes
+,,,,Increased amount of apoptotic cells in oligodendrocytes
+,,,,Decreased frequency of myelin formation in oligodendrocytes
+,,,,Decreased thickness of myelin sheaths in oligodendrocytes
+,,,,Presence of aberrant ER morphologies in oligodendrocytes
+,,,,Presence of mislocalization of PLP1 protein in the perinuclear cytoplasm in oligodendrocytes
+,,,,Presence of colocalization of PLP1 protein with KDEL in oligodendrocytes
+,,,, Increased susceptibility to ER stress in oligodendrocytes
+,,,, Presence of scatter O4 staining in the processes of oligodendrocytes
+,,,,Increased nuclear condensation in apoptotic oligodendrocytes
+,,,,Presence of increased ER intermembrane space diation in oligodendrocytes
+GBA1,Gaucher Disease,N370S,PMID: 23071332,Decreased glucocerebrosidase enzymatic activity in neurons
+,,,,Accumulation of glucosylsphingolipids in neurons
+GBA1,Gaucher Disease,L444P/L444P,PMID: 23071332,Decreased glucocerebrosidase enzymatic activity in neurons
+,,,,Accumulation of glucosylsphingolipids in neurons
+GBA1,Gaucher Disease,L444P/RecNcil,PMID: 23071332,Decreased glucocerebrosidase enzymatic activity in neurons
+,,,,Accumulation of glucosylsphingolipids in neurons
+CYFIP1,Schizophrenia,15q11.2,PMID: 24996170,Impaired structure of adherens junctions in NSCs
+SHANK3,Phelan-McDermit Syndrome,Deletion,PMID: 24132240,Increased input resistance in neurons
+,,,,Decreased amplitude of spontaneous excitatory post-synaptic currents in neurons
+,,,,Decreased frequency of spontaneous excitatory post-synaptic currents in neurons
+,,,,Impairment of AMPA-mediated synaptic transmission in neurons
+,,,,Impairment of NMDA-mediated synaptic transmission in neurons
+,,,,Decreased amplitude of spontaneous synaptic events in neurons
+,,,,Decreased frequency of spontaneous synaptic events in neurons
+,,,,Decreased current size generation in response to focal application of AMPA in neurons
+,,,,Decreased current size generation in response to focal application of NMDA in neurons
+,,,,Decreased amount of excitatory synapses in neurons
+,,,,Increased amplitude of spontaneous excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Increased frequency of spontaneous excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Decreased input resistance after treatment with IGF1 in neurons
+,,,,Increased current size generation in response to focal application of NMDA after treatment with IGF1 in neurons
+,,,,Increased amplitude of evoked AMPA excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Increased amplitude of evoked NMDA excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Rescue of synaptic transmission after treatment with IGF1 in neurons
+,,,,Increased rate of decay of NMDA-excitatory post-synaptic currents in neurons
+,,,,Decreased production of neurons in iPSCs
+NPC1,Niemann-Pick Type C,I1061T,PMID: 25637190,Increase in early cell death in neurons
+,,,,Increased cell survival in neurons after treatment with curcumin
+,,,,Increased cell survival in neurons after treatment with dantrolene 
+,,,,Presence of mis-localized FUS protein in the cytoplasm of motor neurons
+,,,,Accumulation of FUS cytoplasmic aggregates in motor neurons
+,,,,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+Parkin,Parkinson's ,Deletions of exon 3 and 5 (Homozyg),PMID: 25332110,Decrease in size of neurites in neurons
+,,,,Decreased number of terminals in neurons
+,,,,Decreased number of branch points in neurons
+,,,,Decreased neurite complexity in neurons
+,,,,Decreased microtubule stability in neurons 
+,,,,Increase in free tubulin in neurons
+,,,,Decrease in polymerized tubulin in pellet fractions in neurons
+,,,,Decreased neurite length in neurons after treatment with colchicine
+,,,,Decreased number of terminals in neurons after treatment with colchicine
+,,,,Decreased number of branch points in neurons after treatment with colchicine
+,,,,Decreased neurite complexity in neurons after treatment with colchicine
+,,,,Increased neurite length after treatment with taxol in neurons
+,,,,Increased number of terminals after treatment with taxol in neurons
+,,,,Increased number of branch points after treatment with taxol in neurons
+,,,,Increased neurite complexity after treatment with taxol in neurons
+Parkin,Parkinson's ,Deletions of exon 3 and 5,PMID: 25332110,Decrease in size of neurites in neurons
+,,,,Decreased number of terminals in neurons
+,,,,Decreased number of branch points in neurons
+,,,,Decreased neurite complexity in neurons
+,,,,Decreased microtubule stability in neurons 
+,,,,Increase in free tubulin in neurons
+,,,,Decrease in polymerized tubulin in pellet fractions in neurons
+,,,,Decreased neurite length in neurons after treatment with colchicine
+,,,,Decreased number of terminals in neurons after treatment with colchicine
+,,,,Decreased number of branch points in neurons after treatment with colchicine
+,,,,Decreased neurite complexity in neurons after treatment with colchicine
+,,,,Increased neurite length after treatment with taxol in neurons
+,,,,Increased number of terminals after treatment with taxol in neurons
+,,,,Increased number of branch points after treatment with taxol in neurons
+,,,,Increased neurite complexity after treatment with taxol in neurons

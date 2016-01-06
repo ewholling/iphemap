@@ -1,0 +1,53 @@
+New Account Information
+Hosting Package: Basic
+Domain: iphemap.com
+First Payment Amount: $3.22 USD
+Total Amount: $3.22 USD
+Billing Cycle: Annually
+Next Due Date: 05/01/2017
+
+Login Details
+
+Username: iphemapc
+Password: F6jsBUohd81A
+
+
+Control Panel URL: http://104.223.15.30:2082/
+Secure Connection Control Panel URL: https://104.223.15.30:2083/
+Once your domain has propogated, you may also use http://www.iphemap.com:2082/
+
+
+Server Information
+
+Server Name: Web-Lax01
+Server IP: 104.223.15.30
+
+
+If you are using an existing domain with your new hosting account, you will need to update the nameservers to point to the nameservers listed below.
+
+Nameserver 1: ns1.vmpanel.net (104.223.15.31)
+Nameserver 2: ns2.vmpanel.net (173.44.51.220)
+Nameserver 3: ns3.vmpanel.net (192.95.6.6)
+
+Uploading Your Website
+
+Temporarily you may use one of the addresses given below manage your web site:
+Temporary FTP Hostname: 104.223.15.30
+Temporary Webpage URL: http://104.223.15.30/~iphemapc/
+
+And once your domain has propagated you may use the details below:
+
+FTP Hostname: www.iphemap.com
+Webpage URL: http://www.iphemap.com
+
+
+Email Settings
+
+For email accounts that you setup, you should use the following connection details in your email program:
+
+POP3 Host Address: mail.iphemap.com
+SMTP Host Address: mail.iphemap.com
+Username: The email address you are checking email for
+Password: As specified in your control panel
+
+

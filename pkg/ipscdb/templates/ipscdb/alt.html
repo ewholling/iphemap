@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    {% load staticfiles %}
+    {% load highlighter %}
+    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="search">iPhemap</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Active</a></li> -->
+          <li><a href="/">About</a></li>
+          <li class=""><a href="/faqs">FAQ's</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/studies">Studies</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/research">Research</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container" style="margin-top:100px">
+            <!-- Optional columns for small components -->
+        
+        
+        <div class="main clearfix">
+                  <a href="search">
+                  <div class="clearfix" style="padding-bottom: 30px;">
+                      <div style="float:left;">
+                          <img src="static/img/icon2.png" style="max-width: 100px;">
+                      </div>
+                      <div style="float:left">
+                          <h1><span style="color:#4A61B8;">iP</span><span style="color: #D56944;">hemap</span></h1>
+                      </div>
+                  </div>
+                  </a>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="Search gene, phenotype, disease, or SNP..." type="text" value="{{ query }}" name="search" id="search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit" value="">Search</button>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="half-select" id="input-select">
+                            <select class="form-control" name="domain-select" >
+                                <option value="all" selected>Domain [default: all]</option>
+                                {% for domain in domains %}
+                                <option value="{{domain}}">{{ domain }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="half-select" id="domain-select">
+                            <select class="form-control" name="disease-select" >
+                                <option value="all" selected>Disease [default: all]</option>
+                                {% for disease in diseases %}
+                                <option value="{{disease}}">{{ disease }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+              </div>
+            </div>
+
+        </div>
+
+        <div>
+            {% if found %}
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist" id="phesel">
+                    <li role="presentation" class="active" data-toggle="tab">
+                        <a href="#mol" aria-controls="mol" role="tab" data-toggle="tab">Cellular Phenotypes</a>
+                        </li>
+                    <li role="presentation" data-toggle="tab">
+                        <a href="#cel" aria-controls="cel" role="tab" data-toggle="tab">Molecular Phenotypes</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="mol">
+                        <table class="responsive"><tbody>
+                            <tr>
+                                <th>Gene</th>
+                                <th>Disease</th>
+                                <th>Mutation</th>
+                                <th>Reference</th>
+                                <th>Cellular Phenotypes</th>
+                            </tr>
+                            {% for gene in found %}
+                            <tr>
+                                <td><a href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
+                                    <i>{{ gene.name|highlight_search:query }}</i></a>
+                                </td>
+                                <td>{{ gene.disease|highlight_search:query }}</td>
+                                <td>{{ gene.snp|highlight_search:query }}</td>
+                                <td><a href="/studies?pmid={{ gene.pmid }}#{{ gene.pmid }}">{{ gene.pmid|slugify|highlight_search:query }}</a></td>
+                                <td>
+                                    <table style="table-layout:fixed;"><tbody>
+                                        <col width="100em"></col>
+                                        <col></col>
+                                        {% if gene.showgenephenotypes %}
+                                            {% for domain in gene.sorted_phenotypes %}
+                                            {% if domain.visible %}
+                                                <tr>
+                                                    {% if domain.name %}
+                                                    <td>{{ domain.name }}</td>
+                                                    {% else %}
+                                                    <td>Unknown</td>
+                                                    {% endif %}
+
+                                                    <td>
+                                                        <ul>
+                                                        {% for phenotype in domain.phenotypes %}
+                                                            <li>{{ phenotype.description|highlight_search:query|highlight }}</li>
+                                                        {% endfor %}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                            {% endfor %}
+                                        {% else %}
+                                            <tr>None</tr>
+                                        {% endif %}
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody></table>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="cel">
+                        <table class="responsive"><tbody>
+                            <tr>
+                                <th>Gene</th>
+                                <th>Disease</th>
+                                <th>Mutation</th>
+                                <th>Reference</th>
+                                <th>Gene Ontology &amp; Molecular Pathways</th>
+                            </tr>
+                            <tr>
+                                <th>Key:</th>
+                                <th></th>
+                                <th></th>
+                                <th>
+                                    <td>
+                                    <table style="table-layout:fixed;"><tbody>
+                                        <col width="200"></col>
+                                        <col width="200"></col>
+                                        <col width="200"></col>
+                                        <tr>
+                                            <th style="padding-left: 0;">Cell Type</th>
+                                            <th style="padding-left: 0;">
+                                                <!-- <center> -->
+                                                    <img src="static/img/genekey2.png">
+                                                <!-- </center> -->
+                                            </th>
+                                            <th style="padding-left: 0;">
+                                                <!-- <center> -->
+                                                    <img src="static/img/pathkey2.png">
+                                                <!-- </center> -->
+                                            </th>
+                                        </tr>
+                                    </tbody></table>
+                                </th>
+                            </tr>
+                            {% for gene in found %}
+                            <tr>
+                                <td><a href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
+                                    <i>{{ gene.name|highlight_search:query }}</i></a>
+                                </td>
+                                <td>{{ gene.disease|highlight_search:query }}</td>
+                                <td>{{ gene.snp|highlight_search:query }}</td>
+                                <td><a href="/studies?pmid={{ gene.pmid }}#{{ gene.pmid }}">{{ gene.pmid|slugify|highlight_search:query }}</a></td>
+                                <td>
+                                    <table><tbody>
+                                        <col width="200"></col>
+                                        <col width="100"></col>
+                                        <col width="100"></col>
+                                        <col width="100"></col>
+                                        <col width="100"></col>
+                                        <!-- <col width="100"></col>
+                                        <col width="100"></col> -->
+                                        {% if gene.showgenefigures %}
+                                            {% for domain in gene.sorted_phenotypes %}
+                                            {% if domain.showfigures %}
+                                                <tr>
+                                                    {% if domain.name %}
+                                                    <td>{{ domain.name }}</td>
+                                                    {% else %}
+                                                    <td>Unknown</td>
+                                                    {% endif %}
+
+                                                    {% for figure in domain.figures %}
+                                                    {% if figure %}
+                                                    <td>
+                                                        <a href="/static/pdf/{{ figure.filename }}">
+                                                            <img src="/static/pdf/{{ figure.filename }}.png">
+                                                        </a>
+                                                    </td>
+                                                    {% else %}
+                                                    <td><img src="/static/img/nonesq.png"></td>
+                                                    {% endif %}
+                                                    {% endfor %}
+                                                </tr>
+                                            {% endif %}
+                                            {% endfor %}
+                                        {% else %}
+                                            <tr>None</tr>
+                                        {% endif %}
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+
+            
+            {% if found|length == 0 %}
+            <p>No Search Results</p>
+            {% endif %}
+        </div>
+    </div>
+
+
+    <script src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/bootswatch.js"></script>
+    <script src="static/js/classie.js"></script>
+    <script src="static/js/selectFx.js"></script>
+    <script src="static/js/responsive-tables.js"></script>
+    <script>
+        (function() {
+            [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {    
+                new SelectFx(el);
+            } );
+        })();
+    </script>
+</body>
+</html>
+
+
+
