@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
+</head>
+<body>
+  <div class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="search">iPhemap</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Active</a></li> -->
+          <li {% if request.path == "/" %}         class="active" {% else %} class="" {% endif %} ><a href="/">About</a></li>
+          <li {% if request.path == "/faqs" %}     class="active" {% else %} class="" {% endif %} ><a href="/faqs">FAQ's</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li {% if request.path == "/studies" %}  class="active" {% else %} class="" {% endif %} ><a href="/studies">Studies</a></li>
+          <li {% if request.path == "/contact" %}  class="active" {% else %} class="" {% endif %} ><a href="/contact">Contact</a></li>
+          <li {% if request.path == "/research" %} class="active" {% else %} class="" {% endif %} ><a href="/research">Research</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="clearfix">
+      <a class="main-wrapper" href="search">
+          <img class="main-logo" src="static/img/icon2.png"/>
+          <h1 class="main-title">
+            <span class="main-title-blue">iP</span><span>hemap</span>
+          </h1>
+      </a>
+    </div>
+  </div>  
+
+  <div></div>
+  
+  <div class="container">
+    {% block content %}{% endblock%}
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <img src="static/img/logo.png"/>
+      <div class="footer-row">
+        Last Update: August 8th 2015
+        <br>© 2015 The Ohio State University
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

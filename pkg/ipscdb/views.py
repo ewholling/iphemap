@@ -2,7 +2,9 @@ from django.shortcuts import render, render_to_response
 from django.db.models import Q
 from ipscdb.extract import extract_data
 from ipscdb.models import Gene, Phenotype, Study, Figure
-import re, time
+from django.template import RequestContext
+import re
+import time
 
 # http://julienphalip.com/post/2825034077/adding-search-to-a-django-site-in-a-snap
 def normalize_query(query_string,
@@ -53,9 +55,9 @@ def studies(request):
     return render_to_response('ipscdb/studies.html', {
         'studies' : studies,
         'selected_pmid' : int(pmid)
-        })
+        }, context_instance=RequestContext(request))
 
-def index(request):
+def search(request):
     found = None
     query = None
     diseases = sorted(list(set([p.values()[0] 
@@ -135,24 +137,24 @@ def index(request):
             'query'     : q,
             'diseases'  : diseases,
             'domains'   : alldomains,
-            })
+            }, context_instance=RequestContext(request))
     else:
         return render_to_response('ipscdb/alt.html', {
             'diseases'  : diseases,
             'domains'   : alldomains,
-            })
+            }, context_instance=RequestContext(request))
 
 def about(request):
-    return render_to_response('ipscdb/about.html')
+    return render_to_response('ipscdb/about.html', {}, context_instance=RequestContext(request))
 
 def faqs(request):
-    return render_to_response('ipscdb/faqs.html')
+    return render_to_response('ipscdb/faqs.html', {}, context_instance=RequestContext(request))
 
 def research(request):
-    return render_to_response('ipscdb/research.html')
+    return render_to_response('ipscdb/research.html', {}, context_instance=RequestContext(request))
 
 def contact(request):
-    return render_to_response('ipscdb/contact.html')
+    return render_to_response('ipscdb/contact.html', {}, context_instance=RequestContext(request))
 
 def extract(request):
     extract_data()

@@ -1,68 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    {% load staticfiles %}
-    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
-</head>
-<body>
-    <div class="navbar navbar-default">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+{% extends "ipscdb/default.html" %}      
 
-        <a class="navbar-brand" href="search">iPhemap</a>
-      </div>
-      <div class="navbar-collapse collapse navbar-responsive-collapse">
-        <ul class="nav navbar-nav">
-          <!-- <li class="active"><a href="#">Active</a></li> -->
-          <li class="active"><a href="/">About</a></li>
-          <li class=""><a href="/faqs">FAQ's</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="/studies">Studies</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li class="active"><a href="/research">Research</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-		<div class="main clearfix">
-      <a href="search">
-            <img src="static/img/icon2.png" style="width: 100px; float: left;">
-            <h1 style="float: left;"><span style="color:#4A61B8;">iP</span><span style="color: #D56944;">hemap</span></h1>
-      </a>
-        </div>
-        <br>
-	    <div style="background: #eee; padding: 20px;">
-    	<!-- <h1>About</h1> -->
+{% block content %}
+<div class="tinted">
+  <h1>Methods Summary</h1>
 
-      <h1>Methods Summary</h1>
-
-      <p>
-      Through several search efforts, we initially discovered 77 iPSC articles modeling 
-neurodegenerative diseases; however, after establishing a criteria for our meta-analysis, 
-we omitted fifteen of the original 77 articles in consideration, thus diminishing our total 
-to 62. We then analyzed these articles and documented all of the phenotypes from 
-diseased iPSC-derived cells, which we organized into nine distinct phenotypic categories. 
-From this, we generated a circos plot and ideogram to illustrate the phenotype-category 
-relationship.  Moreover, to further explore the associations between our 428 phenotypes 
-and examined genes, we generated multiple phenogenetic networks and conducted 
-statistical analyses, which we termed phenome ontology.  In addition to the cellular 
-phenotypes, we also conducted analysis of microarray data on 11 of the studies to 
-elucidate molecular phenotypes induced by transcriptional dysregulation. Following our 
-meta-analysis, we developed an online web tool, titled iPhemap, which allows  the 
-community of  users access to our phenogenetic database. Further method information 
-can be found in Supplementary Text of the published article.
-      </p>
-    </div>
-    </div>
-</body>
-</html>
-
+  <p>
+  Through several search efforts, we initially discovered 77 iPSC articles modeling 
+  neurodegenerative diseases; however, after establishing a criteria for our meta-analysis, 
+  we omitted fifteen of the original 77 articles in consideration, thus diminishing our total 
+  to 62. We then analyzed these articles and documented all of the phenotypes from 
+  diseased iPSC-derived cells, which we organized into nine distinct phenotypic categories. 
+  From this, we generated a circos plot and ideogram to illustrate the phenotype-category 
+  relationship.  Moreover, to further explore the associations between our 428 phenotypes 
+  and examined genes, we generated multiple phenogenetic networks and conducted 
+  statistical analyses, which we termed phenome ontology.  In addition to the cellular 
+  phenotypes, we also conducted analysis of microarray data on 11 of the studies to 
+  elucidate molecular phenotypes induced by transcriptional dysregulation. Following our 
+  meta-analysis, we developed an online web tool, titled iPhemap, which allows  the 
+  community of  users access to our phenogenetic database. Further method information 
+  can be found in Supplementary Text of the published article.
+  </p>
+</div>
+{% endblock %}

@@ -1,48 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-    {% load staticfiles %}
-    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
-</head>
-<body>
-    <div class="navbar navbar-default">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+{% extends "ipscdb/default.html" %}      
 
-        <a class="navbar-brand" href="search">iPhemap</a>
-      </div>
-      <div class="navbar-collapse collapse navbar-responsive-collapse">
-        <ul class="nav navbar-nav">
-          <!-- <li class="active"><a href="#">Active</a></li> -->
-          <li><a href="/">About</a></li>
-          <li class="active"><a href="/faqs">FAQ's</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="/studies">Studies</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/research">Research</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-		<div class="clearfix">
-        <a href="search">
-            <img src="static/img/icon2.png" style="width: 100px; float: left;">
-            <h1 style="float: left;"><span style="color:#4A61B8;">iP</span><span style="color: #D56944;">hemap</span></h1>
-        </a>
-        </div>
-        <br>
-	    <div style="padding: 20px;">
-        <h1>FAQ's</h1> 
-        <p>Frequently Asked Questions<p>
+{% block content %}
+<h1>FAQ's</h1> 
+<p>Frequently Asked Questions<p>
 <div class="list-group">
   <a href="#q1" class="list-group-item">How do I cite iPhemap and the information on it?</a>
   <a href="#q2" class="list-group-item">How do I start a new search?</a>
@@ -99,10 +59,5 @@ The citation for the website and the usage of it can be accessed on the about pa
 
 <h4><a name="q12">How were the tree maps or phenotypic results generated? </a></h4>
 <p>All methods and detail descriptions of iPhemap’s creation can be accessed through the research tab. See: “Where can I find more information about iPhemap and its creation?”<p>
-      
-      
-      </div>
-    </div>
-</body>
-</html>
 
+{% endblock %}
