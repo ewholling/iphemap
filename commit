@@ -1,4 +1,5 @@
 #!/bin/sh
 cp -r pkg tmp
 sed -i -e 's/DEBUG = True/DEBUG = False/g' tmp/settings.py
-rsync -avz -e "ssh -i iphemap" tmp root@158.69.167.226:/home/iphemap
+rsync -avz -e "ssh -i iphemap" tmp/ root@158.69.167.226:/home/iphemap/pkg
+rm -rf tmp

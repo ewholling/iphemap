@@ -33,6 +33,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ipscdb',
+    'lockdown',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -42,17 +43,22 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'lockdown.middleware.LockdownMiddleware',
 )
 
 ROOT_URLCONF = 'urls'
 
-TEMPLATE_DIRS = (
-  os.path.join(BASE_DIR,'templates'),
-)
-
-TEMPLATE_CONTEXT_PROCESSORS = TCP + (
-    'django.core.context_processors.request',
-)
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+          'context_processors' : [
+            'django.contrib.auth.context_processors.auth',
+          ]},
+    },
+]
 
 DATABASES = {
   'default': {
@@ -64,3 +70,6 @@ DATABASES = {
 
 STATIC_ROOT = os.path.join(BASE_DIR, '..', 'static')
 STATIC_URL = '/static/'
+
+LOCKDOWN_PASSWORDS = ('imitola', )
+LOCKDOWN_FORM = 'lockdown.forms.LockdownForm'

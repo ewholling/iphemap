@@ -1,12 +1,11 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
 from ipscdb import views
 
-urlpatterns = patterns('',
-    url(r'^$', views.about, name='about'),
-    url(r'^search$', views.search, name='search'),
-    url(r'^research$', views.research, name='research'),
-    url(r'^contact$', views.contact, name='contact'),
-    url(r'^faqs$', views.faqs, name='faqs'),
-    url(r'^studies$', views.studies, name='studies'),
-    # url(r'^home/', 'views.home', name='home'),
-)
+urlpatterns = [ 
+    url(r'^$', views.about),
+    url(r'^search$', views.search),
+    url(r'^research$', views.research),
+    url(r'^contact$', views.contact),
+    url(r'^faqs$', views.faqs),
+    url(r'^studies$', views.studies),
+]
