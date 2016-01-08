@@ -1,8 +1,8 @@
 from django.shortcuts import render, render_to_response
 from django.db.models import Q
-from ipscdb.extract import extract_data
-from ipscdb.models import Gene, Phenotype, Study, Figure
-from django.template import RequestContext
+
+from ipscdb.models import Gene, Phenotype, Study, Figure, Announcement
+
 import re
 import time
 
@@ -54,8 +54,9 @@ def studies(request):
         except: pass
     return render_to_response('ipscdb/studies.html', {
         'studies' : studies,
-        'selected_pmid' : int(pmid)
-        }, context_instance=RequestContext(request))
+        'selected_pmid' : int(pmid),
+        'request' : {'path' : request.path},
+        })
 
 def search(request):
     found = None
@@ -137,24 +138,24 @@ def search(request):
             'query'     : q,
             'diseases'  : diseases,
             'domains'   : alldomains,
-            }, context_instance=RequestContext(request))
+            'request' : {'path' : request.path},
+            })
     else:
         return render_to_response('ipscdb/alt.html', {
             'diseases'  : diseases,
             'domains'   : alldomains,
-            }, context_instance=RequestContext(request))
+            'request' : {'path' : request.path},
+            })
 
 def about(request):
-    return render_to_response('ipscdb/about.html', {}, context_instance=RequestContext(request))
+    announcements = Announcement.objects.all()
+    return render_to_response('ipscdb/about.html', {'announcements' : announcements, 'request' : {'path' : request.path}})
 
 def faqs(request):
-    return render_to_response('ipscdb/faqs.html', {}, context_instance=RequestContext(request))
+    return render_to_response('ipscdb/faqs.html', {'request' : {'path' : request.path}})
 
 def research(request):
-    return render_to_response('ipscdb/research.html', {}, context_instance=RequestContext(request))
+    return render_to_response('ipscdb/research.html', {'request' : {'path' : request.path}})
 
 def contact(request):
-    return render_to_response('ipscdb/contact.html', {}, context_instance=RequestContext(request))
-
-def extract(request):
-    extract_data()
+    return render_to_response('ipscdb/contact.html', {'request' : {'path' : request.path}})

@@ -3,7 +3,7 @@
 <head>
     <title></title>
     {% load staticfiles %}
-    <link rel="stylesheet" type="text/css" href="static/css/spacelab.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/paper.css" />
     <link rel="stylesheet" type="text/css" href="static/css/main.css" />
     <link rel="stylesheet" type="text/css" href="static/css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="static/css/responsive-tables.css" />
@@ -36,18 +36,20 @@
   </div>
 
   <div class="container">
-    <div class="clearfix">
-      <a class="main-wrapper" href="search">
-          <img class="main-logo" src="static/img/icon2.png"/>
-          <h1 class="main-title">
-            <span class="main-title-blue">iP</span><span>hemap</span>
-          </h1>
+    <div class="main-wrapper" >
+      <a href="search">
+        <img class="main-logo" src="static/img/icon2.png"/>
+        <h1 class="main-title">
+          <span class="main-title-blue">iP</span><span>hemap</span>
+        </h1>
       </a>
+    </div>
+    <div class="secondary">
+      <div><span>i</span>PS cell</div>
+      <div><span>Phe</span>nogenic <span>Map</span></div>
     </div>
   </div>  
 
-  <div></div>
-  
   <div class="container">
     {% block content %}{% endblock%}
   </div>
@@ -61,6 +63,10 @@
       </div>
     </div>
   </div>
+ 
+  <script src="static/js/jquery-1.10.2.min.js"></script>
+  <script src="static/js/classie.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
 

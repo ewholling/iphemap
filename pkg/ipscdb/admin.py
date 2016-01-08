@@ -1,8 +1,10 @@
 from django.contrib import admin
-from ipscdb.models import Gene, Phenotype, Study, Figure
+from ipscdb.models import Gene, Phenotype, Study, Figure, Announcement
 
 admin.site.register(Gene)
 admin.site.register(Phenotype)
 admin.site.register(Study)
 admin.site.register(Figure)
-# Register your models here.
+admin.site.register(Announcement)
+
+admin.site.site_header = 'iPhemap Admin Page'

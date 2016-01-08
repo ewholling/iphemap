@@ -1,0 +1,63 @@
+First Author,Species,Year,Experiment Type,Starting Cell Type,Target Cell Type,GEO ID,Platform Name,Platform GEO,references/ PMID
+Muratore,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24524897
+Kondo,Homo sapiens,2013,Reprogram,Fibroblast,"Neurons, Astrocytes",GSE43326,HuGene-1_0-st,GPL6244,PMID: 23434393
+Tagi,Homo sapiens,2011,Reprogram,Fibroblast,Neurons,GSE28450,Agilent-022060,GPL10123,PMID: 21900357
+Sproul,Homo sapiens,2014,Reprogram,Fibroblast,NSCs, -, -, -,PMID: 24416243
+Koch,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22510327
+Isreal,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22278060
+Schondorf,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24905578
+Liu,Homo sapiens,2012,Reprogram,Fibroblast,NSCs,GSE34061,HiSeq 2000,GPL11154,PMID: 23075850
+Nguyen ,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 21362567
+Reinhardt,Homo sapiens,2013,Reprogram,Fibroblast,Neurons,GSE43364,illumina HumanHT-12 v4,GPL10558,PMID: 23472874
+Sanders,Homo sapiens,2013,Reprogram,Fibroblast,NSCs, -, -, -,PMID: 24148854
+Sánchez-Danés,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22407749
+Cooper,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22764206
+Reyes,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 25046995
+Byers,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22110584
+Devine,Homo sapiens,2011,Reprogram,Fibroblast,Neurons,GSE28366.,HumanOmni1-Quad ,GPL8882, PMID: 21863007
+Chung,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24158904
+Ryan,Homo sapiens,2013,Reprogram,Fibroblast,Neurons,GSE46798,Illumina HumanHT-12 v4,GPL10558,PMID: 24290359
+Jiang,Homo sapiens,2012,Reprogram,Fibroblast,Neurons,GSE35190,RPCI Human HB21K,GPL15098,PMID: 22314364
+Imaizumi,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 23039195
+Rakovic,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 23212910
+Seibler,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 21508222
+Xia,Homo sapiens,2013,Reprogram,Fibroblast,"Neurons, NSCs, Astrocytes, iPSCs", -, -, -,PMID: 23550732
+Corti,Homo sapiens,2012,Reprogram,Fibroblast,Neurons,GSE27206,HG-U133_Plus_2,GPL570,PMID: 23253609
+Chang,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 21956898
+Ebert,Homo sapiens,2009,Reprogram,Fibroblast,"Neurons, Astrocytes",GSE13828,HG-U133_Plus_2,GPL570 ,PMID: 19098894
+Sareen,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22723941
+Lafaille,Homo sapiens,2012,Reprogram,Fibroblast,"Neurons, NSCs, Astrocytes, Oligodendrocytes",GSE40593,Illumina HumanWG-6 v3.0,GPL6884,PMID: 23103873
+Ananiev,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 21966470
+Marchetto,Homo sapiens,2010,Reprogram,Fibroblast,Neurons,GSE21037,HuGene-1_0-st,GPL6244,PMID: 21074045
+Kim,Homo sapiens,2011,Reprogram,Fibroblast,"Neurons, NSCs, iPSCs", -, -, -,PMID: 21807996
+Ricciardi,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22922712
+Koch,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22113611
+Almeida,Homo sapiens,2012,Reprogram,Fibroblast,Neurons,GSE40378,illumina HumanHT-12 v4,GPL10558,PMID: 23063362
+Almeida,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 23836290
+Sareen,Homo sapiens,2013,Reprogram,Fibroblast,"Neurons, NSCs, Astrocytes",GSE52202,HiSeq 2000,GPL11154,PMID: 24154603
+Bilican,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22451909
+Egawa,Homo sapiens,2012,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 22855461
+Serio,Homo sapiens,2013,Reprogram,Fibroblast,Astrocytes, - , -, -, PMID: 23401527
+Chen,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, - , -, -,PMID: 24704493
+Pasca,Homo sapiens,2012,Reprogram,Fibroblast,Neurons,GSE25542,Illumina HumanRef-8 v3.0,GPL6883,PMID: 22120178
+Zhang,Homo sapiens,2010,Reprogram,Fibroblast,NSCs, -, -, -,PMID: 21037797
+An,Homo sapiens,2012,Reprogram,Fibroblast,NSCs,GSE37547,Nimblegen Homo sapiens HG18 (12x135k) ,GPL15338 ,PMID: 22748967
+Jeon,Homo sapiens,2012,Reprogram,Fibroblast,iPSCs, -, -, -,PMID: 22628015
+Juopperi,Homo sapiens,2012,Reprogram,Fibroblast,Astrocytes, -, -, -,PMID: 22613578
+Chae,Homo sapiens,2012,Reprogram,Fibroblast,iPSCs, -, -, -,PMID: 22694310
+Guo,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24231356
+Mattis,Homo sapiens,2012,Reprogram,Fibroblast,"Neurons, NSCs",GSE37517,HuGene-1_0-st,GPL10739,PMID: 22748968
+Jang,Homo sapiens,2011,Reprogram,Fibroblast,"Neurons, Oligodendrocytes", -, -, -,PMID: 21721033
+Liu,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 23821540
+Higurashi,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 23639079
+Liu,Homo sapiens,2011,Reprogram,Fibroblast,iPSCs,GSE24487,HG-U133_Plus_2,GPL570 ,PMID: 21346760
+Hick,Homo sapiens,2012,Reprogram,Fibroblast,"Neurons, iPSCs", -, -, -,PMID: 23136396
+Sherman,Homo sapiens,2010,Reprogram,Fibroblast,iPSCs,GSE22651,Illumina HumanHT-12 V3.0,GPL6947 ,PMID: 21040903
+Andrade,Homo sapiens,2012,Reprogram,Fibroblast,"Neurons, iPSCs",GSE36648,HuGene-1_0-st,GPL6244,PMID: 22661500
+Fong,Homo sapiens,2013,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24319659
+Numasawa-Kuroiwa,Homo sapiens,2014,Reprogram,Fibroblast,Oligodendrocytes, -, -, -,PMID: 24936452
+Doers,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24654675
+Suh,Homo sapiens,2014,Reprogram,Fibroblast,iPSCs, -, -, -,PMID: 24468087
+Higuchi,Homo sapiens,2014,Reprogram,Fibroblast,iPSCs, -, -, -,PMID: 24642446
+Maetzel,Homo sapiens,2014,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 24936472
+Mazzulli,Homo sapiens,2011,Reprogram,Fibroblast,Neurons, -, -, -,PMID: 21700325

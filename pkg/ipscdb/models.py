@@ -54,3 +54,13 @@ class Figure(models.Model):
 		return '<{0} {1} : {2} : {3}>'.format(self.gene_name, self.domain, self.pmid, self.hindex)
 	class Meta:
 		ordering = ('hindex',)
+
+class Announcement(models.Model):
+  date = models.DateField(auto_now_add=True)
+  title = models.CharField(max_length=1000)
+  link = models.CharField(max_length=1000, blank=True)
+
+  def __str__(self):
+    return '<{0} : {1} : {2}>'.format(self.date, self.title, self.link)
+  class Meta:
+    ordering = ('date',)

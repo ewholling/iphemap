@@ -2,6 +2,7 @@
 
 {% block content %}
 <div class="tinted">
+  <h4>About</h4>
   <p>
   iPhemap is comprehensive regularly updated database that
   aims to provide a field synopsis and catalog all of the in vitro
@@ -10,24 +11,15 @@
   </p>
 
   <p>
-  You can <a href="search">search</a> cellular and molecular phenotypes from data
-  from 62 published <a href="/studies">reports</a>. We characterized 428 distinct
+  You can <a href="search">search cellular and molecular phenotypes </a>
+  from <a href="/studies">62 published reports</a>. We characterized 428 distinct
   cellular phenotypes and the resulting relationships between
   gene and phenotype into phenogenetic map that can be used
   to build new hypothese sin the field of neurological disease
   modeling, and to identify potential new opportunities to
   design novel drug strategies.
   </p>
-
-  <p>For details on the background and system biology methods used in iPhemap, see the <a href="research">Methods</a> section. The website is developed and maintained by the Imitola Stem Cell <a href="contact">Group</a>.</p>
-
-
-
-  <img src="static/img/explain.png" style="width: 100%;">
-  <br><br>
-
-
-
+  
   <p>
   iPheMap comprises a comprehensive catalog of phenogenetic profiles from patient
   derived-iPSCs from highly curated, published reports and returns:
@@ -56,5 +48,29 @@
     pathways.
     </li>
   </ol>
+
+  <p>For details on the background and system biology methods used in iPhemap, see the <a href="research">Methods</a> section. The website is developed and maintained by the <a href="contact">Imitola Stem Cell Group</a>.</p>
 </div>
+
+<div class="tinted">
+  <img src="static/img/explain.png" style="width: 100%;">
+</div>
+
+<div class="tinted">
+  <h4>Announcements</h4>
+
+  {% for announcement in announcements %}
+  <a class="announcement" href="{{ announcement.link }}">
+    <span class="announcement-date">{{ announcement.date }}:</span>
+    <span>{{ announcement.title }}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="tinted">
+  <h4>Disclaimer</h4>
+  <p>
+  iPhemap is a non-profit web tool and was developed for educational and research purposes only. Although we strive to keep the content up to date and accurate, it has been manually curated and may not be current for all iPS cells phenogenetic relationships. Although we make reasonable efforts to maintain the iPhemap web tool we cannot guarantee that this would be continually free of defects. We reserve the right to make changes to iPhemap at any time without notice. No external links to iPhemap can be provided without the explicit written permission.</p>
+</div>
+
 {% endblock %}
