@@ -56,21 +56,40 @@
   <img src="static/img/explain.png" style="width: 100%;">
 </div>
 
-<div class="tinted">
-  <h4>Announcements</h4>
-
-  {% for announcement in announcements %}
-  <a class="announcement" href="{{ announcement.link }}">
-    <span class="announcement-date">{{ announcement.date }}:</span>
-    <span>{{ announcement.title }}</span>
-  </a>
-  {% endfor %}
+<div class="tintedb">
+  <h4>CIting iPhemap</h4>
+  <p>Hollingsworth, E, Vaughn JE,  Orack JC,  Skinner C, Racke MK,  Watanabe F, Kosik KS, Imitola J
+  <br><b>iPhemap</b>: An atlas of phenotype to genotype relationships of human induced pluripotent stem cell models of neurological diseases. Submitted,  2016</p>
 </div>
 
-<div class="tinted">
-  <h4>Disclaimer</h4>
-  <p>
-  iPhemap is a non-profit web tool and was developed for educational and research purposes only. Although we strive to keep the content up to date and accurate, it has been manually curated and may not be current for all iPS cells phenogenetic relationships. Although we make reasonable efforts to maintain the iPhemap web tool we cannot guarantee that this would be continually free of defects. We reserve the right to make changes to iPhemap at any time without notice. No external links to iPhemap can be provided without the explicit written permission.</p>
+<div class="tintedc">
+  <div class="tintedb">
+    <h4>Announcements</h4>
+
+    {% for announcement in announcements %}
+    <a class="announcement" href="{{ announcement.link }}">
+      <span class="announcement-date">{{ announcement.date }}:</span>
+      <span>{{ announcement.title }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="tintedb">
+    <h4>Links</h4>
+    <a class="announcement" href="https://www.nimhgenetics.org">NIMH Repository and Genomics Resource</a>
+    <a class="announcement" href="https://www.nimhgenetics.org/stem_cells/">The NIMH Stem Cell Center, hiPSC cell line data biorepositories</a> 
+    <a class="announcement" href="http://www.ncbi.nlm.nih.gov/gap">Database of Genotypes and Phenotypes (dbGaP)</a>
+    <a class="announcement" href="http://rdocdb.nimh.nih.gov/">Clinical phenotyping data through the NIMH Data Archive</a>
+  </div>
+</div>
+
+<div class="tintedb">
+  <h4>Development</h4>
+  <p>The <a href="/contact">Imitola Laboratory</a> at The Ohio State University Neurological Institute has developed this resource for identifying phenotype-genotype relationship and cataloging curated phenotypes  in patient-derived models of neurological disease.</p>
+</div>
+
+<div class="tintedb">
+  <h4>Version</h4>
+  <p>The current version number is 1.1 - 122015. The most recent update to data was on date</p>
 </div>
 
 {% endblock %}

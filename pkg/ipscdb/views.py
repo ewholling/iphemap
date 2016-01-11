@@ -159,3 +159,6 @@ def research(request):
 
 def contact(request):
     return render_to_response('ipscdb/contact.html', {'request' : {'path' : request.path}})
+
+def disclaimer(request):
+    return render_to_response('ipscdb/disclaimer.html', {'request' : {'path' : request.path}})

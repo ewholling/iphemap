@@ -17,9 +17,11 @@
           </div>
           <div>
             Examples:
-            <a href="/search?search=Alzheimer%27s&domain-select=all&disease-select=all">Alzheimer's</a>,
-            <a href="/search?search=APP&domain-select=all&disease-select=all">APP</a>,
-            <a href="/search?search=NSCs&domain-select=all&disease-select=all">NSCs</a>
+            <i>
+              <a href="/search?search=Alzheimer%27s&domain-select=all&disease-select=all">Alzheimer's</a>,
+              <a href="/search?search=APP&domain-select=all&disease-select=all">APP</a>,
+              <a href="/search?search=NSCs&domain-select=all&disease-select=all">NSCs</a>
+            </i>
           </div>
           <div>
               <div class="half-select" id="input-select">
@@ -71,7 +73,7 @@
                    </tr>
                    {% for gene in found %}
                    <tr>
-                       <td><a href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
+                       <td><a target="_blank" href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
                            <i>{{ gene.name|highlight_search:query }}</i></a>
                        </td>
                        <td>{{ gene.disease|highlight_search:query }}</td>
@@ -176,7 +178,7 @@
                                        {% for figure in domain.figures %}
                                        {% if figure %}
                                        <td>
-                                           <a href="/static/pdf/{{ figure.filename }}">
+                                           <a target="_blank"  href="/static/pdf/{{ figure.filename }}">
                                                <img src="/static/pdf/{{ figure.filename }}.png">
                                            </a>
                                        </td>

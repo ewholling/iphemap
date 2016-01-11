@@ -8,4 +8,5 @@ urlpatterns = [
     url(r'^contact$', views.contact),
     url(r'^faqs$', views.faqs),
     url(r'^studies$', views.studies),
+    url(r'^disclaimer$', views.disclaimer),
 ]

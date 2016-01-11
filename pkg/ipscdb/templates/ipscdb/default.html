@@ -24,7 +24,7 @@
         <ul class="nav navbar-nav">
           <!-- <li class="active"><a href="#">Active</a></li> -->
           <li {% if request.path == "/" %}         class="active" {% else %} class="" {% endif %} ><a href="/">About</a></li>
-          <li {% if request.path == "/faqs" %}     class="active" {% else %} class="" {% endif %} ><a href="/faqs">FAQ's</a></li>
+          <li {% if request.path == "/faqs" %}     class="active" {% else %} class="" {% endif %} ><a href="/faqs">Help</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li {% if request.path == "/studies" %}  class="active" {% else %} class="" {% endif %} ><a href="/studies">Studies</a></li>
@@ -43,23 +43,24 @@
           <span class="main-title-blue">iP</span><span>hemap</span>
         </h1>
       </a>
-    </div>
-    <div class="secondary">
-      <div><span>i</span>PS cell</div>
-      <div><span>Phe</span>nogenic <span>Map</span></div>
+
+      <div class="secondary">
+        <div><span>i</span>PS cell <span>Phe</span>nogenetic <span>Map</span></div>
+      </div>
     </div>
   </div>  
 
   <div class="container">
-    {% block content %}{% endblock%}
+    {% block content %}{% endblock %}
   </div>
 
-  <div class="footer">
+   <div class="footer">
     <div class="container">
       <img src="static/img/logo.png"/>
       <div class="footer-row">
         Last Update: August 8th 2015
         <br>© 2015 The Ohio State University
+        <br><a href="/disclaimer">Disclaimer</a>
       </div>
     </div>
   </div>
@@ -67,6 +68,7 @@
   <script src="static/js/jquery-1.10.2.min.js"></script>
   <script src="static/js/classie.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/live.js"></script>
 </body>
 </html>
 
