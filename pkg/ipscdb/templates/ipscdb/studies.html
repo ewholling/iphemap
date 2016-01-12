@@ -8,34 +8,44 @@
   <table class="responsive">
     <tr>
       <th><a href="studies?sort=first_author">First Author</a></th>
-      <th><a href="studies?sort=species">Species</a></th>
-      <th><a href="studies?sort=year">Year</a></th>
-      <th><a href="studies?sort=experiment_type">Experiment Type</a></th>
-      <th><a href="studies?sort=starting_cell_type">Starting Cell Type</a></th>
-      <th><a href="studies?sort=target_cell_type">Target Cell Type</a></th>
+      <th><a href="studies?sort=disease">Disease</a></th>
+      <th><a href="studies?sort=snp">Gene/Mutation</a></th>
+      <th><a href="studies?sort=species">Species</a></th> 
+      <th><a href="studies?sort=year">Year</a></th> 
+      <th><a href="studies?sort=reprogramming_type">Reprogramming</a></th>
+      <th><a href="studies?sort=starting_cell_type">Starting Cell Type </a></th>
+      <th><a href="studies?sort=target_cell_type">Generated Celltype</a></th> 
+      <th><a href="studies?sort=disease_patients">Number of Disease Patients</a></th>
+      <th><a href="studies?sort=control_patients">Number of Control Patients</a></th>
+      <th><a href="studies?sort=utilization">Utilization of Gene-Editing or Isogenetic Cell Lines </a></th>
       <th><a href="studies?sort=geoid">GEO ID</a></th>
       <th><a href="studies?sort=platform_name">Platform Name</a></th>
-      <th><a href="studies?sort=platform_geo_id">Platform GEO</a></th>
+      <th><a href="studies?sort=platform_geo_id">Platform GEO</a></th> 
       <th><a href="studies?sort=pmid">PMID</a></th>
     </tr>
     {% for study in studies %}
-    {% if study.pmid == selected_pmid %}
-    <tr style="border: 3px solid #000;" id="{{ study.pmid }}">
-    {% else %}
-    <tr id="{{ study.pmid }}">
-    {% endif %}
-      <td>{{ study.first_author }}</td>
-      <td>{{ study.species }}</td>
-      <td>{{ study.year }}</td>
-      <td>{{ study.experiment_type }}</td>
-      <td>{{ study.starting_cell_type }}</td>
-      <td>{{ study.target_cell_type }}</td>
-      
-      <td><a href="{{ study.geoid_link }}">{{ study.geoid }}</a></td>
-      <td>{{ study.platform_name }}</td>
-      <td><a href="{{ study.platform_geoid_link }}">{{ study.platform_geo_id }}</a></td>
-      <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={{ study.pmid }}">{{ study.pmid }}</a></td>
-    </tr>
+      {% if study.pmid == selected_pmid %}
+      <tr style="border: 3px solid #000;" id="{{ study.pmid }}">
+      {% else %}
+      <tr id="{{ study.pmid }}">
+      {% endif %}
+        <td>{{ study.first_author       }}</td> 
+        <td>{{ study.disease            }}</td> 
+        <td>{{ study.snp                }}</td> 
+        <td>{{ study.species            }}</td> 
+        <td>{{ study.year               }}</td> 
+        <td>{{ study.reprogramming_type }}</td>
+        <td>{{ study.starting_cell_type }}</td>
+        <td>{{ study.target_cell_type   }}</td> 
+        <td>{{ study.disease_patients   }}</td> 
+        <td>{{ study.control_patients   }}</td> 
+        <td>{{ study.utilization        }}</td> 
+        <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ study.geoid }}">{{ study.geoid }}</a></td> 
+        <td>{{ study.platform_name     }}</td> 
+        <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={{ study.platform_geo_id }}">{{ study.platform_geo_id }}</a></td>
+        <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={{ study.pmid }}">{{ study.pmid }}</a></td> 
+        
+      </tr>
     {% endfor %}
   </table>
 </div>
