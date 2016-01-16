@@ -8,10 +8,29 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(static/fonts/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(static/fonts/OpenSans.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(static/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
 
 body {
 	background: #fff;
-	font-family: Arial;
+	font-family: Roboto;
 }
 
 #domain-select div,
@@ -195,19 +214,24 @@ td > a > img {
 }
 
 .main-wrapper {
+  position: relative;
   display: inline-block;
   vertical-align:top;
 }
 
 .secondary {
-  margin-top: -20px;
+  position: absolute;
+  top: 65px;
+  left: 153px;
   opacity: 0;
-  margin-left: 150px;
   font-size: 15px;
   pointer-events: none;
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.secondary div {
+  line-height: 17px;
+}
 .secondary div span {
   font-weight: bold;
 }
@@ -310,3 +334,12 @@ h4 {
 .navbar-right li > a {
   color: #aaa !important;
 }
+
+.checkbox {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  height: 30px;
+  margin-top: 0px !important;
+}
+

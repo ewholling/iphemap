@@ -58,25 +58,21 @@ def studies(request):
         'request' : {'path' : request.path},
         })
 
-def search(request):
-    found = None
-    query = None
-    diseases = sorted(list(set([p.values()[0] 
-        for p in Gene.objects.all().values('disease') if p.values()[0]])))
-    alldomains = sorted(list(set([p.values()[0] 
-        for p in Phenotype.objects.all().values('domain') if p.values()[0]])))
-    
+def index(request):
+    q = request.GET.get('search', '')
     domain_select = request.GET.get('domain-select', '')
     disease_select = request.GET.get('disease-select', '')
-    # print domain_select
-    # print disease_select
-    q = request.GET.get('search', '')
+
+    diseases = sorted(list(set([p.values()[0] for p in Gene.objects.all().values('disease') if p.values()[0]])))
+    alldomains = sorted(list(set([p.values()[0] for p in Phenotype.objects.all().values('domain') if p.values()[0]])))
+    
     if len(q) > 0 or disease_select or domain_select:
+        query = None
         domain_select = domain_select if domain_select != 'all' else None
         disease_select = disease_select if disease_select != 'all' else None
         print 'filterng disease: %s' % str(disease_select)
         print 'filterng domain: %s' % str(domain_select)
-
+  
         if len(q) > 0:
             query = get_query(q, ['name', 'disease', 'snp', 'pmid']) | Q(phenotypes__description__icontains=q)
         
@@ -88,9 +84,9 @@ def search(request):
             found = Gene.objects.filter(query).prefetch_related('phenotypes')
         else:
             found = Gene.objects.all()
-
+  
         found = sorted(found, key=lambda x: (x.name, x.pmid))
-
+  
         # deduplicate
         if len(found) > 0:
             temp = [found[0]]
@@ -102,7 +98,7 @@ def search(request):
                 if not inother:
                     temp.append(f)
             found = temp
-
+  
         for f in found:
             chosen_phenotypes = f.phenotypes.all().filter(domain__icontains = domain_select) if domain_select else f.phenotypes.all()
             domains = sorted(list(set([p.values()[0] for p in chosen_phenotypes.all().values('domain')])))
@@ -120,10 +116,6 @@ def search(request):
                     'visible'       : d in domains,
                     'name'          : d,
                     'phenotypes'    : chosen_phenotypes.filter(domain = d),
-                    # 'figure0'       : fset[0],
-                    # 'figure1'       : fset[1],
-                    # 'figure2'       : fset[2],
-                    # 'figure3'       : fset[3],
                     'figures'       : fset,
                     'showphenotypes': not len(chosen_phenotypes.filter(domain = d)) == 0,
                     'showfigures'   : any([True if fg != None else False for fg in fset]),
@@ -133,7 +125,7 @@ def search(request):
             f.showgenephenotypes = any([d['showphenotypes'] for d in f.sorted_phenotypes])
             # f.showgenephenotypes = True
 
-        return render(request, 'ipscdb/alt.html', {
+        return render(request, 'ipscdb/index.html', {
             'found'     : found,
             'query'     : q,
             'diseases'  : diseases,
@@ -141,9 +133,73 @@ def search(request):
             'request' : {'path' : request.path},
             })
     else:
-        return render_to_response('ipscdb/alt.html', {
+        return render_to_response('ipscdb/index.html', {
             'diseases'  : diseases,
             'domains'   : alldomains,
+            'request' : {'path' : request.path},
+            })
+
+def genes(request):
+    q = request.GET.get('search', '')
+    diseases = sorted(list(set([p.values()[0] for p in Gene.objects.all().values('disease') if p.values()[0]])))
+    alldomains = sorted(list(set([p.values()[0] for p in Phenotype.objects.all().values('domain') if p.values()[0]])))
+    allgenes = sorted(set([g.name for g in Gene.objects.all()]))
+    
+    if len(q) > 0:
+        gs = q.split(':')
+        query = Q(name__in=gs)
+        for g in gs:
+          query = query | Q(phenotypes__description__icontains=g)
+        found = Gene.objects.filter(query).prefetch_related('phenotypes')
+        found = sorted(found, key=lambda x: (x.name, x.pmid))
+
+        # deduplicate
+        if len(found) > 0:
+            temp = [found[0]]
+            for f in found:
+                inother = False
+                for f1 in temp:
+                    if f == f1 or set(f.phenotypes.all()) == set(f1.phenotypes.all()):
+                        inother = True
+                if not inother:
+                    temp.append(f)
+            found = temp
+
+        for f in found:
+            chosen_phenotypes = f.phenotypes.all()
+            domains = sorted(list(set([p.values()[0] for p in chosen_phenotypes.all().values('domain')])))
+            f.sorted_phenotypes = []
+            for d in alldomains:
+                # figures = Figure.objects.filter(pmid = f.pmid)
+                figures = Figure.objects.filter(pmid = f.pmid, domain = d)
+                fset = []
+                for i in range(4):
+                    try:
+                        fset.append(figures.get(hindex = i))
+                    except:
+                        fset.append(None)
+                f.sorted_phenotypes.append({
+                    'visible'       : d in domains,
+                    'name'          : d,
+                    'phenotypes'    : chosen_phenotypes.filter(domain = d),
+                    'figures'       : fset,
+                    'showphenotypes': not len(chosen_phenotypes.filter(domain = d)) == 0,
+                    'showfigures'   : any([True if fg != None else False for fg in fset]),
+                    })
+            
+            f.showgenefigures = any([d['showfigures'] for d in f.sorted_phenotypes])
+            f.showgenephenotypes = any([d['showphenotypes'] for d in f.sorted_phenotypes])
+
+        return render(request, 'ipscdb/genes.html', {
+            'found'     : found,
+            'query'     : q,
+            'selected'  : q.split(':'),
+            'genes'     : allgenes,
+            'request' : {'path' : request.path},
+            })
+    else:
+        return render_to_response('ipscdb/genes.html', {
+            'genes'     : allgenes,
             'request' : {'path' : request.path},
             })
 

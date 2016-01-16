@@ -1,0 +1,216 @@
+{% extends "ipscdb/default.html" %}      
+
+{% block content %}
+
+{% load highlighter %}
+<div style="min-height: 500px">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div>Select all the genes to include in your search.</div>
+      <a href="search">Search by all fields</a>
+      <br>
+      <br>
+      <div id="checkboxes">
+        {% for gene in genes %}
+        <div class="checkbox" >
+          <label>
+            {% if gene in selected %}
+              <input type="checkbox" value="{{ gene }}" checked>{{ gene }}</input>
+            {% else %}
+              <input type="checkbox" value="{{ gene }}">{{ gene }}</input>
+            {% endif %}
+          </label>
+        </div>
+        {% endfor %}
+      </div>
+      <br>
+      <div id="searchbutton" class="btn btn-default">Search</div>
+    </div>
+  </div>
+  <script>
+    $('#searchbutton').click(function(e) {
+      var genes = [];
+      $('#checkboxes').find('input').map(function(i, x) {
+        if (x.checked) {
+          genes.push(x.value);
+        }
+      });
+      // console.log(genes.join(';'));
+      window.location.href = encodeURI('genes?search='+genes.join(':'));
+    });
+  </script>
+
+
+  <div>
+    {% if found %}
+    <div role="tabpanel">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist" id="phesel">
+          <li role="presentation" class="active" data-toggle="tab">
+              <a href="#mol" aria-controls="mol" role="tab" data-toggle="tab">Cellular Phenotypes</a>
+              </li>
+          <li role="presentation" data-toggle="tab">
+              <a href="#cel" aria-controls="cel" role="tab" data-toggle="tab">Molecular Phenotypes</a>
+          </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="mol">
+          <table class="responsive"><tbody>
+                   <tr>
+                       <th>Gene</th>
+                       <th>Disease</th>
+                       <th>Mutation</th>
+                       <th>Reference</th>
+                       <th>Cellular Phenotypes</th>
+                   </tr>
+                   {% for gene in found %}
+                   <tr>
+                       <td><a target="_blank" href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
+                           <i>{{ gene.name|highlight_search:query }}</i></a>
+                       </td>
+                       <td>{{ gene.disease|highlight_search:query }}</td>
+                       <td>{{ gene.snp|highlight_search:query }}</td>
+                       <td><a href="/studies?pmid={{ gene.pmid }}#{{ gene.pmid }}">{{ gene.pmid|slugify|highlight_search:query }}</a></td>
+                       <td>
+                           <table style="table-layout:fixed;"><tbody>
+                               <col width="100em"></col>
+                               <col></col>
+                               {% if gene.showgenephenotypes %}
+                                   {% for domain in gene.sorted_phenotypes %}
+                                   {% if domain.visible %}
+                                         <tr>
+                                             {% if domain.name %}
+                                             <td>{{ domain.name }}</td>
+                                             {% else %}
+                                             <td>Unknown</td>
+                                             {% endif %}
+
+                                             <td>
+                                                 <ul>
+                                                 {% for phenotype in domain.phenotypes %}
+                                                     <li>{{ phenotype.description|highlight_search:query|highlight }}</li>
+                                                 {% endfor %}
+                                                 </ul>
+                                             </td>
+                                         </tr>
+                                     {% endif %}
+                                     {% endfor %}
+                                 {% else %}
+                                     <tr>None</tr>
+                                 {% endif %}
+                             </tbody></table>
+                         </td>
+                     </tr>
+                     {% endfor %}
+          </tbody></table>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="cel">
+           <table class="responsive"><tbody>
+               <tr>
+                   <th>Gene</th>
+                   <th>Disease</th>
+                   <th>Mutation</th>
+                   <th>Reference</th>
+                   <th>Gene Ontology &amp; Molecular Pathways</th>
+               </tr>
+               <tr>
+                   <th>Key:</th>
+                   <th></th>
+                   <th></th>
+                   <th>
+                       <td>
+                       <table style="table-layout:fixed;"><tbody>
+                           <col width="200"></col>
+                           <col width="200"></col>
+                           <col width="200"></col>
+                           <tr>
+                               <th style="padding-left: 0;">Cell Type</th>
+                               <th style="padding-left: 0;">
+                                   <!-- <center> -->
+                                       <img src="static/img/genekey2.png">
+                                   <!-- </center> -->
+                               </th>
+                               <th style="padding-left: 0;">
+                                   <!-- <center> -->
+                                       <img src="static/img/pathkey2.png">
+                                   <!-- </center> -->
+                               </th>
+                           </tr>
+                       </tbody></table>
+                   </th>
+               </tr>
+               {% for gene in found %}
+               <tr>
+                   <td><a href="http://www.ncbi.nlm.nih.gov/gene/?term={{ gene.name }}">
+                       <i>{{ gene.name|highlight_search:query }}</i></a>
+                   </td>
+                   <td>{{ gene.disease|highlight_search:query }}</td>
+                   <td>{{ gene.snp|highlight_search:query }}</td>
+                   <td><a href="/studies?pmid={{ gene.pmid }}#{{ gene.pmid }}">{{ gene.pmid|slugify|highlight_search:query }}</a></td>
+                   <td>
+                       <table><tbody>
+                           <col width="200"></col>
+                           <col width="100"></col>
+                           <col width="100"></col>
+                           <col width="100"></col>
+                           <col width="100"></col>
+                           <!-- <col width="100"></col>
+                           <col width="100"></col> -->
+                           {% if gene.showgenefigures %}
+                               {% for domain in gene.sorted_phenotypes %}
+                               {% if domain.showfigures %}
+                                   <tr>
+                                       {% if domain.name %}
+                                       <td>{{ domain.name }}</td>
+                                       {% else %}
+                                       <td>Unknown</td>
+                                       {% endif %}
+
+                                       {% for figure in domain.figures %}
+                                       {% if figure %}
+                                       <td>
+                                           <a target="_blank"  href="/static/pdf/{{ figure.filename }}">
+                                               <img src="/static/pdf/{{ figure.filename }}.png">
+                                           </a>
+                                       </td>
+                                       {% else %}
+                                       <td><img src="/static/img/nonesq.png"></td>
+                                       {% endif %}
+                                       {% endfor %}
+                                   </tr>
+                               {% endif %}
+                               {% endfor %}
+                           {% else %}
+                               <tr>None</tr>
+                           {% endif %}
+                       </tbody></table>
+                   </td>
+               </tr>
+               {% endfor %}
+             </tbody></table>
+          </div>
+       </div>
+    </div>
+    {% endif %}
+
+
+
+    {% if found|length == 0 %}
+    <p>No Search Results</p>
+    {% endif %}
+  </div>
+</div>
+  
+<script src="static/js/selectFx.js"></script>
+<script>
+    (function() {
+        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {    
+            new SelectFx(el);
+        } );
+    })();
+</script>
+
+{% endblock %}
