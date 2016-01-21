@@ -3,4 +3,6 @@
 *.pub
 *.pem
 tmp/*
+server
+vps
 
