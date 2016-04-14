@@ -5,11 +5,13 @@ import os
 import re
 import csv
 
-def new_csv():
-  with open('../references/iPheMap Data 12-8.xlsx - Sheet1.csv') as f:
+def new_csv(fn):
+  with open(fn) as f:
     reader = csv.reader(f)
     hds = next(reader)
-
+    Gene.objects.all().delete()
+    Phenotype.objects.all().delete()
+    
     gene = None
     for r in reader:
       if r[0] != '':
@@ -19,19 +21,20 @@ def new_csv():
           print(gene, gene.snp)
           print ''
           
-        pmid = int(re.findall('\d+', r[3])[0])
+        print r
+        pmid = int(r[3])
         gene = Gene(name = r[0], disease = r[1], snp = r[2], pmid=pmid)
         gene.save()
 
-        p = Phenotype(description=r[4], domain="Neurons")
+        p = Phenotype(description=r[5], domain=r[4])
         p.save()
 
         gene.phenotypes.add(p)
-        print 'added: ', r[4]
+        print 'added: ', r[5]
       else:
-        p = Phenotype(description=r[4], domain="Neurons")
+        p = Phenotype(description=r[5], domain=r[4])
         p.save()
-        print 'added: ', r[4]
+        print 'added: ', r[5]
         gene.phenotypes.add(p)
 
     gene.save()

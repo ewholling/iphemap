@@ -1,10 +1,9 @@
 #!/bin/sh
 ./pkg/manage.py collectstatic
-rm -rf tmp
-cp -r pkg tmp
+# cp -r pkg tmp
 # sed -i -e 's/DEBUG = True/DEBUG = False/g' tmp/settings.py
-rsync -avz -e "ssh -i iphemap" tmp/ root@158.69.167.226:/home/iphemap/pkg
-rsync -avz -e "ssh -i iphemap" static/ root@158.69.167.226:/home/iphemap/static
-ssh -i iphemap root@158.69.167.226 '/home/iphemap/own.sh && sudo service apache2 restart'
+rsync -avz -e "ssh -i iphemap.pem" pkg/ root@158.69.167.226:/home/iphemap/pkg
+rsync -avz -e "ssh -i iphemap.pem" static/ root@158.69.167.226:/home/iphemap/static
+ssh -i iphemap.pem root@158.69.167.226 '/home/iphemap/own.sh && sudo service apache2 restart'
 echo "Cleaning up.."
-rm -rf tmp
+# rm -rf tmp

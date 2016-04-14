@@ -205,9 +205,11 @@ td > a > img {
   color: #fff !important;
 }
 
-.footer .footer-row {
+.footer .footer-col {
   display: inline-block;
+  width: 49%;
   margin: 0;
+  vertical-align: top;
   padding: 25px;
   clear: both;
   color: #eee;
@@ -267,6 +269,16 @@ td > a > img {
 
 .main-title span.main-title-blue {
   color:#4A61B8;
+}
+
+.large li,
+.large p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header-image img {
+  width: 100%;
 }
 
 .tinted {

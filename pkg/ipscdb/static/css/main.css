@@ -205,12 +205,15 @@ td > a > img {
   color: #fff !important;
 }
 
-.footer .footer-row {
+.footer .footer-col {
   display: inline-block;
+  width: 100%;
   margin: 0;
+  vertical-align: top;
   padding: 25px;
   clear: both;
   color: #eee;
+  text-align: center;
 }
 
 .main-wrapper {
@@ -267,6 +270,16 @@ td > a > img {
 
 .main-title span.main-title-blue {
   color:#4A61B8;
+}
+
+.large li,
+.large p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.header-image img {
+  width: 100%;
 }
 
 .tinted {
