@@ -36,13 +36,14 @@
         </button>
         <a href="search" class="navbar-brand"><img src="static/img/icon2.png" style="width:30px;"></a>
 
-        <a class="navbar-brand" href="search">iPhemap</a>
+        <a class="navbar-brand" href="/">iPhemap</a>
 
       </div>
       <div class="navbar-collapse collapse navbar-responsive-collapse">
         <ul class="nav navbar-nav">
           <!-- <li class="active"><a href="#">Active</a></li> -->
           <li {% if request.path == "/" %}         class="active" {% else %} class="" {% endif %} ><a href="/">About</a></li>
+          <li {% if request.path == "/search" %}   class="active" {% else %} class="" {% endif %} ><a href="/search">Search</a></li>
           <li {% if request.path == "/faqs" %}     class="active" {% else %} class="" {% endif %} ><a href="/faqs">Help</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -53,7 +54,8 @@
       </div>
     </div>
   </div>
-
+  
+  <!--
   <div class="container">
     <div class="main-wrapper" >
       <a href="search">
@@ -68,6 +70,7 @@
       </div>
     </div>
   </div>  
+  -->
 
   <div class="container">
     {% block content %}{% endblock %}
@@ -100,7 +103,6 @@
  
   <script src="static/js/classie.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
-  <script src="static/js/live.js"></script>
 </body>
 </html>
 

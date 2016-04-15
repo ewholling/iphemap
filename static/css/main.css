@@ -207,12 +207,13 @@ td > a > img {
 
 .footer .footer-col {
   display: inline-block;
-  width: 49%;
+  width: 100%;
   margin: 0;
   vertical-align: top;
   padding: 25px;
   clear: both;
   color: #eee;
+  text-align: center;
 }
 
 .main-wrapper {
@@ -273,8 +274,8 @@ td > a > img {
 
 .large li,
 .large p {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .header-image img {
