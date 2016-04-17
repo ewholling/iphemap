@@ -188,7 +188,7 @@ td > a > img {
 }
 
 .footer {
-  margin-top: 150px;
+  margin-top: 50px;
   width: 100%;
   background: #222;
 }
@@ -274,8 +274,8 @@ td > a > img {
 
 .large li,
 .large p {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header-image img {
@@ -285,7 +285,6 @@ td > a > img {
 .tinted {
   border:1px solid #ccc;
   padding: 30px;
-  margin-bottom: 20px;
 }
 
 .tintedc .tintedb {
@@ -297,9 +296,7 @@ td > a > img {
 }
 
 .tintedb h4 {
-
-  padding-bottom: 10px;
-  padding-left: 30px;
+  padding: 5px 30px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -309,8 +306,7 @@ td > a > img {
 }
 
 .tintedb p {
-  padding: 30px;
-  padding-top: 5px;
+  padding: 5px 30px;
 }
 
 
@@ -322,7 +318,6 @@ td > a > img {
 }
 
 .announcement {
-  margin-bottom: 10px;
   color: black;
 }
 .blue-links .announcement {
@@ -333,7 +328,7 @@ td > a > img {
 }
 
 h4 {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #174f7c !important;
 }
 
