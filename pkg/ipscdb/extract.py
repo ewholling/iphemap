@@ -66,6 +66,9 @@ def extract_figures():
 			f.save()
 		except:
 			print 'Error 2 {0}'.format(f)
+
+
+### OLD
             
 def extract_data():
     EXCEL_DATA_START = 'E3'

@@ -1,0 +1,722 @@
+Gene,Disease,Mutation,PMID,Domain,Phenotypes
+ABCD1 or ALDP,X-Linked Adrenoleukodystrophy,AMN Patient,21721033,Oligodendrocytes,Decreased C26:0/C22:0 ratio levels in oligodendrocytes after treatment with 4-PBA (through induced upregulation of ABCD2 gene)
+,,,,Oligodendrocytes,Decreased C26:0/C22:0 ratio levels in oligodendrocytes by lovastatin (through induced upregulation of ABCD2 gene)
+,,,,Neurons,Increase in very long chain fatty acid (C26:0/C22:0 ratio) levels in neurons
+,,,,Oligodendrocytes,Increased very long chain fatty acid (C26:0/C22:0 ratio) levels in oligodendrocytes
+ABCD1 or ALDP,X-Linked Adrenoleukodystrophy,CCALD Patient,21721033,Oligodendrocytes,Decreased C26:0/C22:0 ratio levels in oligodendrocytes after treatment with 4-PBA (through induced upregulation of ABCD2 gene)
+,,,,Oligodendrocytes,Decreased C26:0/C22:0 ratio levels in oligodendrocytes by lovastatin (through induced upregulation of ABCD2 gene)
+,,,,Neurons,Increase in very long chain fatty acid (C26:0/C22:0 ratio) levels in neurons
+,,,,Oligodendrocytes,Increased very long chain fatty acid (C26:0/C22:0 ratio) levels in oligodendrocytes
+,,,,Oligodendrocytes,Increased very long chain fatty acid levels in oligodendrocytes compared to AMN ABCD1 (X-linked Adrenoleukodystrophy) mutations
+APP,Alzheimer's,Duplication,22278060,Neurons,Decreased anti-glycogen synthase kinase 3 beta (aGSK-3β) levels in neurons after treatment with β-secretase inhibitors
+,,,,Neurons,Decreased p-tau/total tau ratio in neurons after treatment with β-secretase inhibitors
+,,,,Neurons,Increased amount of anti-glycogen synthase kinase 3 beta (aGSK-3β) in neurons
+,,,,Neurons,Increased amount of large Rab5+ early endosomes in neurons
+,,,,Neurons,Increased p-tau/total tau ratios in neurons
+,,,,Neurons,Increased secretion of Aβ (1-40) by neurons
+APP,Alzheimer's,E693Δ,23434393,Astrocytes,Accumulated Aβ oligomers in astrocytes
+,,,,Astrocytes,Decrease in ROS in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Decreased amount of Aβ oligomers in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Increased binding protein (BiP) levels in astrocytes
+,,,,Astrocytes,Increased levels of cleaved caspase-4 in astrocytes
+,,,,Astrocytes,Increased ROS levels in basal conditions in astrocytes
+,,,,Astrocytes,Increased ER stress in astrocytes
+,,,,Astrocytes,Increased oxidative stress in astrocytes
+,,,,Astrocytes,Decreased levels of binding protein (BiP) in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Decreased levels of cleaved caspase-4 in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Decreased levels of ROS in astrocytes after trea
+,,,,Neurons,Impairment of Golgi function in neurons
+,,,,Neurons,Impairment of ER function in neurons
+,,,,Neurons,Decreased ROS in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Accumulation of Aβ oligomers in neurons
+,,,,Neurons,Decreased amount of Aβ-oligomers in neurons with β-secretase inhibitor treatment
+,,,,Neurons,Decreased amount of oxidative stress in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Increased ER stress in neurons
+,,,,Neurons,Decreased levels of extracellular Aβ42 in neurons
+,,,,Neurons,Decreased levels of extracellular Aβ40 in neurons
+,,,,Neurons,Decreased cell viability in neurons
+,,,,Neurons,Partial rescue of cell viability in neurons after treatment with DHA
+,,,,Neurons,Increased levels of binding protein (BiP) in neurons after treatment with high concentrations of DHA
+,,,,Neurons,Decreased levels of binding protein (BiP) in neurons after treatment with DHA
+,,,,Neurons,Decreased levels of ROS in neurons after treatment with DHA
+,,,,Neurons,Decreased levels of cleaved caspase-4 in neurons after treatment with DHA
+,,,,Neurons,Decreased levels of binding protein (BiP) in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Decreased levels of cleaved caspase-4 in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Increased levels of binding protein (BiP) in neurons
+,,,,Neurons,Increased levels of cleaved caspase-4 in neurons
+,,,,Neurons,Increased oxidative stress in neurons after exposure to hydrogen peroxide
+APP,Alzheimer's,V717L,23434393,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased extracellular Aβ42 by neurons
+APP,Alzheimer's,V717I,24524897,Neurons,Decreased Tau protein levels in neurons after treatment with AW7 antibody
+,,,,Neurons,Decreased ratio of secreted APPs-α to APPs-β in neurons
+,,,,Neurons,Decreased tau protein levels in neurons after treatment with 3D6 antibody
+,,,,Neurons,Increased Aβ 38 secretion in neurons
+,,,,Neurons,Increased Aβ 38/40 ratio in neurons
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased colocalization coefficient of APP with endosomal marker EEA1 in neurons
+,,,,Neurons,Increased generation of APPs-α relative to APPs-β in neurons after treatment with γ-secretase inhibition
+,,,,Neurons,Increased levels of TAU protein in neurons
+,,,,Neurons,Increased levels of phospho-Tau at amino acid S262 in neurons
+,,,,Neurons,Increased β-secretase cleavage at APP in neurons
+APP,Alzheimer's,Duplication,25285942,NSCs,Decreased amount of Aβ38 in NSCs after treatment with γ-secretase modulator
+,,,,NSCs,Decreased amount of Aβ40 in NSCs after treatment with γ-secretase modulator
+,,,,NSCs,Decreased amount of Aβ42 in NSCs after treatment with γ-secretase modulator
+ATP7A,Menkes Disease,(Not Specified),24468087,iPSCs,Decreased expression of ATP7A in iPSCs
+,,,,iPSCs,Decreased expression of NESTIN and aberrant rosette lumens during neurosphere development in iPSCs
+,,,,iPSCs,Decreased number of N-cad+/ Sox2+ neural rosettes in iPSCs
+,,,,iPSCs,Decreased/ failed generation of MAP2- expressing neurites in iPSCs
+,,,,iPSCs,Decreased/failed generation of TuJ1- expressing neurites in iPSCs
+,,,,iPSCs,Impaired gradual decrease of E-cadherin in iPSC derivatives
+,,,,iPSCs,Impaired structural integrity in the cell to cell junction (membrane recruitment/microdetachment) in iPSCs
+,,,,iPSCs,Increased opacity/density embryoid body structures in iPSCs
+,,,,iPSCs,Increased distribution of ATP7A molecules throughout cytoplasm in iPSCs
+,,,,iPSCs,Presence of abnormal epithelial morphology of attached cells from embryoid bodies in iPSCs
+,,,,iPSCs,Absence of differentiation into MAP2- expressing neurites in iPSCs
+,,,,iPSCs,Absence of differentiation into TuJ1- expressing neurites in iPSCs
+,,,,iPSCs,Increased epithelial morphology of attached cells from embryoid bodies in iPSCs
+,,,,iPSCs,Presence of abnormal neural rosette during early differentiation in iPSCs
+,,,,iPSCs,Presence of an aberrant switch of E-cadherin to N-cadherin in iPSCs
+,,,,iPSCs,Presence of an abnormal reticular distribution of ATP7A in iPSCs
+ATXN3,Spinocerebellar Ataxia Type 3,CAG repeats,22113611,Neurons,Decreased ATXN3 aggregate formation in neurons after treatment with ALLN (calpain inhibitor)
+,,,,Neurons,Decreased ATXN3 aggregate formation in neurons after treatment with calpeptin (calpain inhibitor)
+,,,,Neurons,Presence of SDS-insoluble ATXN3-containing fragments generation in neurons
+C9ORF72,Frontotemporal Dementia/Amyotrophic Lateral Sclerosis,GGGGCC repeats,23836290,Neurons,Accumulation of RNA foci in neurons
+,,,,Neurons,Accumulation of intranuclear RNA foci in neurons
+,,,,Neurons,Decreased expression of C90RF27 in neurons
+,,,,Neurons,Presence of repeat-associated non-ATG (RAN) translation products in neurons
+C9ORF72,Frontotemporal Dementia/Amyotrophic Lateral Sclerosis,GGGGCC repeats,24154603,Neurons,Accumulation of RNA foci in neurons
+,,,,NSCs,Accumulation of intranuclear RNA foci in NSCs
+,,,,Astrocytes,Accumulation of intranuclear RNA foci in astrocytes
+,,,,Neurons,Decreased electrical excitability of neurons
+,,,,Neurons,Decreased formation of RNA foci in neurons after treatment with antisense oligonucleotides
+,,,,Neurons,Decreased spike size upon depolarization of neurons
+,,,,Neurons,Presence of co-localization of RNA foci in neurons with Pur-α
+,,,,Neurons,Presence of co-localization of RNA foci in neurons with hnRNPA1
+C9ORF72,Amyotrophic Lateral Sclerosis,GGGGCC repeats,25580746,Neurons,Decreased K+ currents in motor neurons
+,,,,Neurons,Decreased Na+ currents in motor neurons
+,,,,Neurons,Decreased action potential output in motor neurons
+,,,,Neurons,Decreased synaptic activity in motor neurons
+,,,,Neurons,Decreased synaptic input in motor neurons
+,,,,Neurons,Increased excitability in neurons
+CACNA1C,Timothy Syndrome,CaV1.2,23313911,Neurons,Decrease in dendritic length upon depolarization in neurons
+CDKL5,Rett Syndrome,Translocation,22922712,Neurons,Decreased amount of synaptic contacts in neurons
+,,,,Neurons,Increased amount of aberrant dendritic spines in neurons
+CYFIP1,Schizophrenia,15q11.2,24996170,NSCs,Impaired structure of adherens junctions in NSCs
+CACNA1C,Timothy Syndrome,Cav1.2,22120178,NSCs,Increase in sustained calcium ion rise following depolarization of NSCs
+,,,,Neurons,Decrease in sustained calcium ion rise following depolarization of neurons after treatment with nimodipine
+,,,,Neurons,Decreased proportion of SATB2 expressing neurons in lower layer marker (FOXP1 and ETV1) expressing neurons
+,,,,Neurons,Decreased amount of neurons expressing lower layer markers (FOXP1 and ETV1)
+,,,,Neurons,Decreased percent of neurons expressing TH+ after treatment with roscovitine
+,,,,Neurons,Impaired calcium channel inactivation in neurons
+,,,,Neurons,Increase in fraction of neurons expressing TH
+,,,,Neurons,Increase in sustained calcium ion rise following depolarization of neurons
+,,,,NSCs,Decrease in sustained calcium ion rise following depolarization of NSCs after treatment with nimodipine
+,,,,Neurons,Increased proportion of CTIP2 expressing neurons in lower layer marker (FOXP1 and ETV1) expressing neurons
+,,,,Neurons,Increased proportion of neurons expressing upper layer markers (CUX1 and REELIN)
+,,,,Neurons,Increased secretion of dopamine in neurons
+,,,,Neurons,Increased secretion of norepinephrine in neurons
+DMPK,Dystrophia Myotonica Type 1,(Not Specified),23550732,NSCs,Accumulation of intranuclear RNA foci in NSCs
+,,,,Astrocytes,Accumulation of intranuclear RNA foci in astrocytes
+,,,,iPSCs,Accumulation of intranuclear RNA foci in iPSCs
+,,,,Neurons,Accumulation of intranuclear RNA foci in neurons
+ERCC6,Cockayne Syndrome,(Not Specified),22661500,iPSCs,Decreased growth rate in iPSCs
+,,,,iPSCs,Increased iPSC death in absence of CSB
+,,,,iPSCs,Increased levels of ROS in iPSCs
+FMR1,Fragile X Syndrome,CGG Repeats,24654675,Neurons,Decrease in length/number of processes extended by forebrain neurons
+,,,,Neurons,Decreased motility/slow rate of neurite extension in forebrain neurons
+,,,,Neurons,Decreased neurite outgrowth by forebrain neurons
+FUS,Amyotrophic Lateral Sclerosis,P525L,25912081,Neurons,Accumulation of FUS cytoplasmic aggregates in motor neurons
+,,,,Neurons,Presence of mis-localized FUS protein in the cytoplasm of motor neurons
+FUS,Amyotrophic Lateral Sclerosis,R514S,26035390,iPSCs,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+,,,,iPSCs,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,iPSCs,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+,,,,iPSCs,Increased punctuate cytoplasmic delocalization of FUS protein in iPSCs
+FUS,Amyotrophic Lateral Sclerosis,R521C,26035390,Neurons,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+FUS,Amyotrophic Lateral Sclerosis,P525L,26035390,Neurons,Accumulation of high FUS protein levels within stress granules after temperature stress in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after temperature stress in neurons
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in iPSCs
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules after treatment with sodium arsenite in neurons
+,,,,Neurons,Accumulation of high FUS protein levels within stress granules in iPSCs after treatment with sorbitol
+FXN,Friedreich's Ataxia,GAA-TTC Triplet Repeat in First Intron,21040903,iPSCs,Increased GAA-TTC repeat instability in iPSCs
+,,,,iPSCs,Increased expression of MSH2 enzyme in iPSCs
+FXN,Friedreich's Ataxia,Expanded GAA Repeats,23136396,Neurons,Decreased excitability of neurons
+,,,,iPSCs,Decreased frataxin levels in iPSCs
+,,,,iPSCs,Decreased mitochondrial membrane potential in iPSCs
+,,,,iPSCs,Increased instability of GAA repeats in iPSCs
+,,,,iPSCs,Presence of delayed development of electrophysiological functionality in iPSCs
+GAA,Pompe Disease,(Not Specified),24642446,iPSCs,Accumulation of glycogen granules in cytoplasm in iPSCs
+,,,,iPSCs,Decreased amount of glycogen granules after treatment with acid-α-glucosidase in iPSCs
+,,,,iPSCs,Increased positive staining for Periodic acid-Schiff in iPSCs
+GBA1,Gaucher Disease,(Not Specified),21700325,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,"Decrease in proteolysis of long-lived proteins (α-synuclein, Htt, Tau) in neurons"
+,,,,Neurons,Decreased enzymatic activity and protein levels of Glucocerebrosidase (Gcase) in neurons
+GBA1,Gaucher Disease,N370S,23071332,Neurons,Accumulation of glucosylsphingolipids in neurons
+,,,,Neurons,Decreased glucocerebrosidase enzymatic activity in neurons
+GBA1,Gaucher Disease,L444P/L444P,23071332,Neurons,Accumulation of glucosylsphingolipids in neurons
+,,,,Neurons,Decreased glucocerebrosidase enzymatic activity in neurons
+GBA1,Gaucher Disease,L444P/RecNcil,23071332,Neurons,Accumulation of glucosylsphingolipids in neurons
+,,,,Neurons,Decreased glucocerebrosidase enzymatic activity in neurons
+GBA1,Parkinson's,(Not Specified),24905578,Neurons,Accumulation of lysosomes in neurons (as shown by LAMP1 positive particles)
+,,,,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Decreased activity of GBA2 in neurons
+,,,,Neurons,Decreased activity of β-galactosidase in neurons
+,,,,Neurons,Decreased amount of autophagic flux in neurons
+,,,,Neurons,Decreased enzymatic activity of Glucocerebrosidase (Gcase) in neurons
+,,,,Neurons,Decreased protein levels of Glucocerebrosidase (Gcase) in neurons
+,,,,Neurons,Impaired autophagosome-lysosome fusion in neurons
+,,,,Neurons,Impaired intracellular calcium homeostasis in neurons
+,,,,Neurons,Impaired lysosomal system in neurons
+,,,,Neurons,Increase in RyR-mediated calcium release in neurons
+,,,,Neurons,Increased amount of autophagosomes in neurons
+,,,,Neurons,Increased amount of cytosolic calcium induced by caffeine in neurons
+,,,,Neurons,Increased intracellular calcium levels in neurons
+,,,,Neurons,Increased susceptibility to ER stress in neurons by calcimycin
+,,,,Neurons,Increased susceptibility to ER stress in neurons by rotenone
+HTT,Huntington's Disease,CAG Repeats,21037797,NSCs,Increase in caspase-3/7 activity in NSCs upon growth factor deprivation
+HTT,Huntington's Disease,CAG Repeats,22613578,Astrocytes,Increased electron clear vacuoles under basal conditions in cytoplasm of astrocytes
+HTT,Huntington's Disease,CAG Repeats,22628015,iPSCs,Decreased rosette forming efficiency in iPSCs
+,,,,iPSCs,Increased susceptibility of iPSCs to form huntingtin aggregates after exposure to MG132
+HTT,Huntington's Disease,CAG Repeats,22694310,iPSCs,Decreased expression of cytoskeleton-associated proteins in iPSCs
+,,,,iPSCs,"Decreased levels of representative antioxidant molecules (Superoxide dismutase1, Glutathiomine transferase, and Glutathione peroxidase 1) in iPSCs"
+,,,,iPSCs,Decreased neuronal differentiation in iPSCs
+,,,,iPSCs,Increased amount of TUNEL-positive iPSCs
+,,,,iPSCs,"Increased amount of peroxiredoxin1, peroxiredoxin2 and peroxiredoxin6 in iPSCs"
+,,,,iPSCs,Increased apoptotic cell death in iPSCs through activation of the p53-mediated apoptotic pathway
+,,,,iPSCs,Increased expression of BTF3 and ATM in iPSCs
+,,,,iPSCs,Increased susceptibility to oxidative stress in iPSCs
+HTT,Huntington's Disease,CAG Repeats,22748967,NSCs,Decrease in average Oxygen Consumption Rate (OCR) in NSCs after exposure to Carbonyl cyanide-p-trifluoromethoxypheny (FCCP)
+,,,,NSCs,Decreased TGF-β1 mRNA in NSCs
+,,,,NSCs,Decreased protein levels of N-cadherin in NSCs
+,,,,NSCs,Increase in TUNEL-positive NSCs
+,,,,NSCs,Increase in caspase-3/7 activity in NSCs upon growth factor deprivation
+,,,,NSCs,Increased susceptibility of NSCs to death after growth factor withdrawal
+HTT,Huntington's Disease,CAG Repeats,22748968,Neurons,Absence of spontaneously firing neurons after two weeks of differentiation
+,,,,Neurons,Increase in caspase-3/7 activity in neurons upon BDNF withdrawal
+,,,,Neurons,Increased calcium dyshomeostatis in neurons after exposure to pathological glutamate levels
+,,,,Neurons,Increased death of neurons with large CAG expansions
+,,,,Neurons,Increased neuronal death after exposure to 30 minute glutamate pulses
+,,,,Neurons,Increased risk of neuronal death
+,,,,Neurons,Increased risk of neuronal death with BDNF withdrawal
+,,,,Neurons,Increased susceptibility of neurons to hydrogen peroxide
+,,,,NSCs,Decrease in average Oxygen Consumption Rate (OCR) in NSCs after exposure to Carbonyl cyanide-p-trifluoromethoxypheny (FCCP)
+,,,,NSCs,Increase in caspase-3/7 activity in NSCs upon growth factor deprivation
+,,,,NSCs,Increased susceptibility of NSCs to death after growth factor withdrawal
+,,,,NSCs,Increase in TUNEL-positive NSCs
+,,,,NSCs,Decreased protein levels of N-cadherin in NSCs
+,,,,NSCs,Decreased TGF-β1 mRNA in NSCs
+,,,,Neurons,Increased susceptibility to 3-methyladenine (3-MA) in neurons
+HTT,Huntington's Disease,CAG Repeats,24231356,Neurons,Decreased levels of ATP in medium spiny neurons
+,,,,iPSCs,Decreased levels of mitochondrial associated dynamin-related protein 1 after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT in iPSCs
+,,,,iPSCs,Decreased levels of mitochondrial associated p53 after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT in iPSCs
+,,,,Neurons,Decreased mROS formation in medium spiny neurons after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT
+,,,,Neurons,Decreased mitochondrial fragmentation along neurites in GABA neurons after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT
+,,,,Neurons,Decreased mitochondrial membrane potential in medium spiny neurons
+,,,,Neurons,Decreased neurite outgrowth in neurons
+,,,,Neurons,Decreased neuronal death upon BDNF withdrawal after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT in neurons
+,,,,Neurons,Increased levels of ATP in medium spiny neurons after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT
+,,,,iPSCs,Increased levels of mitochondrial associated dynamin-related protein 1 in iPSCs
+,,,,iPSCs,Increased levels of mitochondrial associated p53 in iPSCs
+,,,,Neurons,Increased mROS formation in medium spiny neurons
+,,,,Neurons,Increased mitochondrial fragmentation along neurites of GABA neurons
+,,,,Neurons,Increased mitochondrial membrane potential after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT in medium spiny neurons
+,,,,Neurons,Increased neurite length after treatment with dynamin-related protein 1 peptide inhibitor P110-TAT in neurons
+,,,,Neurons,Increased risk of neuronal death with BDNF withdrawal
+LMNA,Hutchinson-Gilford Progeria Syndrome,Point Mutation,21346760,iPSCs,Absence of progerin (truncated splicing mutant of Lamin A) in iPSCs
+,,,,iPSCs,Presence of premature senescence phenotypes in iPSCs
+LRRK2,Parkinson's,G2019S,21362567,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Increased amount of TH-positive neurons after exposure to MG132
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased oxidative stress in neurons after exposure to hydrogen peroxide (DA neurons)
+,,,,Neurons,Increased risk of neuronal death
+,,,,Neurons,Increased susceptibility of neurons to 6-OHDA exposure (DA neurons)
+,,,,Neurons,Increased susceptibility of neurons to MG132 exposure (DA neurons)
+,,,,Neurons,Increased susceptibility to caspase-3 activation in neurons
+LRRK2,Parkinson's,G2019S,22407749,Neurons,Accumulation of SNCA in dopaminergic neurons
+,,,,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Decreased average neurite length of DA neurons after exposure to rapamycin
+,,,,Neurons,Decreased average neurite length of DA neurons after exposure toleupeptin
+,,,,Neurons,Decreased levels of co-localized LC3/LAMP-1 in neurons
+,,,,Neurons,Decreased neurite outgrowth in neurons
+,,,,Neurons,Impaired nuclear architecture in neurons
+,,,,Neurons,Increase in LC3-positive puncta (antibody) in neurons
+,,,,Neurons,Increased abundance of autophagic vacuoles in neurons
+,,,,Neurons,Increased amount of autophagosomes in neurons
+,,,,Neurons,Increased levels of nucleoporin p62 protein in neurons
+,,,,Neurons,Increased positive staining for cleaved caspase-3 in neurons
+,,,,Neurons,Presence of fragmented nuclei in neurons
+,,,,Neurons,Presence of vacuolated soma in neurons
+LRRK2,Parkinson's,G2019S,22764206,Neurons,Decreased Basal Oxygen Consumption Rate (OCR) in neurons
+,,,,Neurons,Decreased susceptibility of neurons to concanamycin A induced cell death after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of concanamycin A induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of valinomycin induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to valinomycin induced cell death after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Decreased susceptibility of neurons to valinomycin induced cell death after treatment with rapamycin
+,,,,Neurons,Increase in bidirectional movement of mitochondria in the proximal axon of neurons
+,,,,Neurons,Increase in mobility of mitochondria in the proximal axon of neurons
+,,,,Neurons,Increased susceptibility of neurons to MPP+
+,,,,Neurons,Increased susceptibility of neurons to concanamycin A
+,,,,Neurons,Increased susceptibility of neurons to valinomycin
+LRRK2,Parkinson's,R1441C,22764206,Neurons,Decrease in mitochondrion length in the proximal axon of neurons
+,,,,Neurons,Decreased Basal Oxygen Consumption Rate (OCR) in neurons
+,,,,Neurons,Decreased amount of dopaminergic neurons after exposure to concanamycin A
+,,,,Neurons,Decreased amount of dopaminergic neurons after exposure to valinomyacin
+,,,,Neurons,Decreased susceptibility of neurons to concanamycin A induced cell death after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of concanamycin A induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of valinomycin induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to valinomycin induced cell death after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Decreased susceptibility of neurons to valinomycin induced cell death after treatment with rapamycin
+,,,,Neurons,Increase in mobility of mitochondria in the proximal axon of neurons
+,,,,Neurons,Increased susceptibility of neurons to MPP+
+,,,,Neurons,Increased susceptibility of neurons to concanamycin A
+,,,,Neurons,Increased susceptibility of neurons to valinomycin
+LRRK2,Parkinson's,G2019S,23075850,NSCs,Decreased amount of TUJ1+ NSCs
+,,,,NSCs,Decreased clonal expansion in NSCs
+,,,,NSCs,Decreased phosphorylation of LRRK2 downstream targets in NSCs after treatment with LRRK2-In-1
+,,,,NSCs,Impaired ability to retain clonogenic and differentiation capacity in NSCs
+,,,,NSCs,Impaired formation of MAP2+ NSCs
+,,,,NSCs,Increased amount of centromeric signals accompanied by reorganization of centromeric heterochromatin in NSCs
+,,,,NSCs,Increased apoptosis in NSCs after exposure to MG132
+,,,,NSCs,"Increased nuclear disruption in NSCs (enlarged nuclear area, decrease in circularity, and loss of lamin B1 and B2 on specific folds of nuclear envelope)"
+,,,,NSCs,Increased phosphorylation of lamin B1 and B2 in NSCs
+,,,,NSCs,Increased proteasomal stress in NSCs
+,,,,NSCs,Partial rescue of normal nuclear morphology in NSCs after treatment with PI3K inhibitor
+,,,,NSCs,Presence of aberrant non-neuronal cellular morphology in NSCs
+,,,,NSCs,Presence of spontaneous NSC differentiation at late passages
+,,,,NSCs,Rescue of aberrant cellular parameters in NSCs after treatment with LRRK2-In-1
+LRRK2,Parkinson's,G2019S,23472874,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Decreased amount of basal autophagy in neurons
+,,,,Neurons,Decreased degeneration of neurons after treatment with MEK kinase inhibitor
+,,,,Neurons,Decreased neurite outgrowth in neurons
+,,,,Neurons,Decreased neuronal oxidative-stress induced cytotoxicity with MEK kinase inhibitor treatment
+,,,,Neurons,Decreased pERK levels in neurons after treatment with LRRK2-IN1
+,,,,Neurons,Increase in DA neuron survival in the presence of LRRK2-IN1
+,,,,Neurons,Increased amount of autophagosomes in neurons
+,,,,Neurons,Increased levels of TAU protein in neurons
+,,,,Neurons,Increased levels of TH and cleaved CASPASE3 double positive neurons after treatment with 6-OHDA
+,,,,Neurons,Increased levels of TH and cleaved CASPASE3 double positive neurons after treatment with rotenone
+,,,,Neurons,Increased levels of pERK in neurons
+,,,,Neurons,Increased levels of phospho-Thr181 TAU in neurons
+,,,,Neurons,Increased neurite growth rates after treatment with MEK kinase inhibitor in neurons
+,,,,Neurons,Increased neurite growth rates in neurons after treatment with LRRK2-IN1
+,,,,Neurons,Increased neuronal susceptibility to oxidative stress when cultured in N2 medium without the supplement B27
+,,,,Neurons,Increased oxidative stress in neurons
+LRRK2,Parkinson's,G2019S,24148854,NSCs,Increased levels of mitochondrial DNA damage in NSCs
+LRRK2,Parkinson's,R1441C,24148854,NSCs,Increased levels of mitochondrial DNA damage in NSCs
+MAPT,Frontotemporal Dementia,N279K,26143746,Neurons,Decrease in size of neurites in neurons
+,,,,Neurons,Decreased neurite complexity in neurons
+,,,,Neurons,Increased immunoreactivity for AT8 in neurons
+,,,,Neurons,Increased ER stress in neurons
+,,,,Neurons,Increased fragmentation of TAU protein in neurons
+,,,,Neurons,Increased susceptibility of neurons to rotenone mediated-apoptosis
+,,,,Neurons,Increased susceptibility to oxidative stress after treatment with rotenone in neurons
+,,,,Neurons,Recovery from oxidative stress after treatment with GSK-3 inhibitor CHIR99021 in neurons
+,,,,Neurons,Recovery from oxidative stress after treatment with antioxidant coenzyme Q10 in neurons
+MAPT,Frontotemporal Dementia,V337M,26143746,Neurons,Decrease in size of neurites in neurons
+,,,,Neurons,Decreased neurite complexity in neurons
+,,,,Neurons,Increased ER stress in neurons
+,,,,Neurons,Increased fragmentation of TAU protein in neurons
+,,,,Neurons,Increased susceptibility of neurons to rotenone mediated-apoptosis
+,,,,Neurons,Increased susceptibility to oxidative stress after treatment with rotenone in neurons
+,,,,Neurons,Recovery from oxidative stress after treatment with GSK-3 inhibitor CHIR99021 in neurons
+,,,,Neurons,Recovery from oxidative stress after treatment with antioxidant coenzyme Q10 in neurons
+MeCP2,Rett Syndrome,Q244X,21074045,Neurons,Decrease in frequency/ amplitude of spontaneous postsynaptic currents of neurons
+,,,,Neurons,Decreased amount of neuronal synapses
+,,,,Neurons,Decreased amount of the density of V-GLUT1 puncta in dendrites of neurons
+,,,,Neurons,Decreased soma size of glutamatergic neurons
+,,,,Neurons,Decreased spine density in glutamatergic neurons
+,,,,Neurons,Impaired neuronal network connectivity in glutamatergic neurons
+,,,,Neurons,Increase in glutamatergic synapse amount in neurons after treatment of IGF1
+,,,,Neurons,Increased glutamatergic synapse amount and MeCP2 protein levels in neurons after treatment with gentamicin
+MeCP2,Rett Syndrome,Q244X,21807996,NSCs,Decreased amount of TUJ1+ NSCs
+,,,,iPSCs,Decreased formation of TuJ+ iPSCs
+,,,,Neurons,Impairment of neuronal maturation
+MeCP2,Rett Syndrome,T158M,21966470,iPSCs,Absence of random X-inactivation in iPSCs
+MeCP2,Rett Syndrome,V247X,21966470,iPSCs,Absence of random X-inactivation in iPSCs
+MeCP2,Rett Syndrome,R306C,21966470,iPSCs,Absence of random X-inactivation in iPSCs
+MeCP2,Rett Syndrome,R294X,21966470,iPSCs,Absence of random X-inactivation in iPSCs
+,,,,Neurons,Decreased nuclear size in neurons
+NPC1,Niemann-Pick Type C,I1061T,24936472,Neurons,Decrease in autophagic clearance in neurons (increased p62 and LC3-II levels)
+,,,,Neurons,Impaired reduction of nSREBP-2 levels in neurons after exposure to HP-β-cyclodextrin serum
+,,,,Neurons,Increased amount of autophagosomes in neurons
+,,,,Neurons,Increased cholesterol accumulation in LE/L compartment in neurons
+,,,,Neurons,Increased cell viability in neurons after treatment with carbamazepine with or without HP-β-cyclodextrin
+,,,,Neurons,Increased cell viability in neurons after treatment with rapamycin with or without HP-β-cyclodextrin
+,,,,Neurons,Increased cell viability in neurons after treatment with trehalose with or without HP-β-cyclodextrin
+,,,,Neurons,Increased cell viability in neurons after treatment with verapamil with or without HP-β-cyclodextrin
+,,,,Neurons,Increased risk of neuronal death
+,,,,Neurons,Rescue of defective autophagic levels in neurons after treatment with carbamazepine with or without HP-β-cyclodextrin
+,,,,Neurons,Rescue of defective autophagic levels in neurons after treatment with rapamycin with or without HP-β-cyclodextrin
+,,,,Neurons,Rescue of defective autophagic levels in neurons after treatment with trehalose with or without HP-β-cyclodextrin
+,,,,Neurons,Rescue of defective autophagic levels in neurons after treatment with verapamil with or without HP-β-cyclodextrin
+,,,,Neurons,Rescue to normal levels of LC3-II in neurons after treatment with bafilomycin A1
+NPC1,Niemann-Pick Type C,I1061T,25637190,Neurons,Increase in early cell death in neurons
+,,,,Neurons,Increased cell survival in neurons after treatment with curcumin
+,,,,Neurons,Increased cell survival in neurons after treatment with dantrolene
+Parkin,Parkinson's,(Not Specified),23039195,Neurons,Accumulation of abnormal tubulovesicular structures in neurons
+,,,,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Impaired reduction of inner mitochondrial membrane area in neurons after exposure to Carbonyl cyanide m-chlorophenyl hydrazone (CCCP)
+,,,,Neurons,"Increased 2',7'- dichoorodihydrofloursecin (DCF) fluorescence in neurons"
+,,,,Neurons,Increased activation of Nrf2 pathway in neurons
+,,,,Neurons,Increased electron density in matrix of the inner mitochondrial membrane of neurons
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased perikaryal volume in mitochondria of neurons
+,,,,Neurons,Increased swelling of mitochondrial cristae in the inner mitochondrial membrane of neurons
+PGRN,Frontotemporal Dementia,S116X,23063362,Neurons,Decreased S6K2 protein levels in neurons
+,,,,Neurons,Decreased caspase-3 activity in neurons after ectopic progranulin expression
+,,,,Neurons,Decreased levels of intracellular progranulin in neurons
+,,,,Neurons,Decreased levels of secreted progranulin in neurons
+,,,,Neurons,Decreased susceptibility to staurosporine after ectopic progranulin expression in neurons
+,,,,Neurons,Increased caspase-3 activity in neurons after exposure to staurosporine
+,,,,Neurons,Increased caspase-3 activity in neurons after exposure to tunicamycin
+,,,,Neurons,Increased levels of S6K2 in neurons after ectopic progranulin expression
+,,,,Neurons,Increased percentage of neurons containing cytoplasmic TDP-43
+,,,,Neurons,Increased percentage of neurons with cytoplasmic TDP-43 after exposure to staurosporine
+,,,,Neurons,Increased percentage of neurons with cytoplasmic TDP-43 after exposure to tunicamycin
+,,,,Neurons,Increased susceptibility in neurons to staurosporine
+,,,,Neurons,Increased susceptibility of neurons to ER stress by tunicamycin
+,,,,Neurons,Increased susceptibility of neurons to MEK kinase inhibitor
+,,,,Neurons,Increased susceptibility of neurons to PI3K inhibitor
+,,,,Neurons,Increased susceptibility of neurons to proteasome activity inhibition due to lactacystin
+,,,,Neurons,Increased susceptibility of neurons to wortmannin
+,,,,Neurons,Rescue of MEK/MAPK signaling pathway in neurons after ectopic progranulin expression
+,,,,Neurons,Rescue of PI3k/AKT signaling pathway in neurons after ectopic progranulin expression
+PINK1,Parkinson's,Q456X,21508222,Neurons,Decreased recruitment of Parkin to mitochondria in neurons
+,,,,Neurons,Impaired reduction of mtDNA upon mitochondrial depolarization in neurons
+,,,,Neurons,Impairment of mitochondrial translocation of Parkin in neurons after exposure to valinomycin
+,,,,Neurons,Increase in PGC-1α levels in neurons
+PINK1,Parkinson's,V170G,21508222,Neurons,Decreased recruitment of Parkin to mitochondria in neurons
+,,,,Neurons,Impaired reduction of mtDNA upon mitochondrial depolarization in neurons
+,,,,Neurons,Impairment of mitochondrial translocation of Parkin in neurons after exposure to valinomycin
+,,,,Neurons,Increase in PGC-1α levels in neurons
+PINK1,Parkinson's,Q456X,22764206,Neurons,Decrease production of mROS in neurons in response to valinomycin after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Decreased amount of dopaminergic neurons after exposure to concanamycin A
+,,,,Neurons,Decreased amount of dopaminergic neurons after exposure to valinomyacin
+,,,,Neurons,Decreased levels of glutathione in neurons after exposure to MPP+
+,,,,Neurons,Decreased levels of glutathione in neurons after exposure to concanamycin A
+,,,,Neurons,Decreased levels of glutathione in neurons after exposure to hydrogen peroxide
+,,,,Neurons,Decreased levels of glutathione in neurons after exposure to valinomycin
+,,,,Neurons,Decreased mROS production in neurons exposed to low concentrations of valinomycin after treatment with rapamycin
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of concanamycin A induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to low concentrations of valinomycin induced cell death after treatment with coenzyme Q10
+,,,,Neurons,Decreased susceptibility of neurons to valinomycin induced cell death after treatment with LRRK2 inhibitor GW5074
+,,,,Neurons,Increase in passive leak of protons from inner mitochondrial membrane of neurons
+,,,,Neurons,Increased Basal Oxygen Consumption Rate (OCR) in neurons
+,,,,Neurons,Increased generation of mROS in neurons after exposure to low concentrations of valinomycin
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased susceptibility of neurons to MG132 exposure (DA neurons)
+,,,,Neurons,Increased susceptibility of neurons to MPP+
+,,,,Neurons,Increased susceptibility of neurons to concanamycin A
+,,,,Neurons,Increased susceptibility of neurons to hydrogen peroxide
+,,,,Neurons,Increased susceptibility of neurons to valinomycin
+,,,,Neurons,Presence of energy substrate (ATP)- independent respiration in neurons
+PINK1,Parkinson's,Q456X,23212910,Neurons,Decreased amount of outer mitochondrial membrane (OMM) proteins of increased molecular mass in neurons
+,,,,Neurons,Impairment of induced ubiquitination of Mfn2 protein after treatment with valinomycin in neurons
+PLP1,Pelizaeus-Merzbacher Disease,Missense,24936452,Oligodendrocytes,Decreased frequency of myelin formation in oligodendrocytes
+,,,,Oligodendrocytes,Decreased thickness of myelin sheaths in oligodendrocytes
+,,,,Oligodendrocytes,Increased amount of apoptotic cells in oligodendrocytes
+,,,,Oligodendrocytes,Increased susceptibility to ER stress induced by exposure to tunicamycin in oligodendrocytes
+,,,,Oligodendrocytes,Presence of aberrant ER morphologies in oligodendrocytes
+,,,,Oligodendrocytes,Presence of mislocalization of PLP1 protein to the ER in oligodendrocytes
+PLP1,Pelizaeus-Merzbacher Disease,Missense,24936452,Oligodendrocytes,Increased susceptibility to ER stress in oligodendrocytes
+,,,,Oligodendrocytes,Presence of scatter O4 staining in the processes of oligodendrocytes
+,,,,Oligodendrocytes,Decreased frequency of myelin formation in oligodendrocytes
+,,,,Oligodendrocytes,Decreased thickness of myelin sheaths in oligodendrocytes
+,,,,Oligodendrocytes,Increased amount of apoptotic cells in oligodendrocytes
+,,,,Oligodendrocytes,Increased nuclear condensation in apoptotic oligodendrocytes
+,,,,Oligodendrocytes,Increased susceptibility to ER stress induced by exposure to tunicamycin in oligodendrocytes
+,,,,Oligodendrocytes,Presence of aberrant ER morphologies in oligodendrocytes
+,,,,Oligodendrocytes,Presence of colocalization of PLP1 protein with KDEL in oligodendrocytes
+,,,,Oligodendrocytes,Presence of increased ER intermembrane space diation in oligodendrocytes
+,,,,Oligodendrocytes,Presence of mislocalization of PLP1 protein in the perinuclear cytoplasm in oligodendrocytes
+,,,,Oligodendrocytes,Presence of mislocalization of PLP1 protein to the ER in oligodendrocytes
+PSEN1,Alzheimer's,A246E,21900357,Neurons,Decreased amount of extracellular Aβ 42 by neurons after treatment with γ-secretase inhibitor
+,,,,Neurons,Decreased amount of extracellular Aβ 42 by neurons by treatment with a selective Aβ42-lowering agent
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased extracellular Aβ42 by neurons
+PSEN1,Alzheimer's,L166P,22510327,Neurons,Accumulation of APP-CTFs upon exposure to DAPT in neurons
+,,,,Neurons,Decreased production of endogenous Aβ 40 in neurons
+,,,,Neurons,Decreased secretion levels of Aβ 40 and 42 in neurons after treatment with Dual Antiplatelet Therapy (DAPT)
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Partial impairment of γ-secretase function in neurons
+PSEN1,Alzheimer's,A246E,24416243,NSCs,Increased Aβ42/40 ratio in NSCs
+PSEN1,Alzheimer's,A246E,25285942,iPSCs,Decreased Aβ42:Aβ40 ratio in iPSCs after treatment with γ-secretase modulator
+,,,,Neurons,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ 38 in neurons after treatment with γ-secretase inhibitor
+,,,,Neurons,Decreased amount of Aβ 40 in neurons after treatment with γ-secretase inhibitor
+,,,,Neurons,Decreased amount of Aβ 42 in neurons after treatment with γ-secretase inhibitor
+,,,,iPSCs,Decreased amount of Aβ38 in iPSCs after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ38 in neurons after treatment with γ-secretase modulator
+,,,,iPSCs,Decreased amount of Aβ40 in iPSCs after treatment with  γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ40 in neurons after treatment with γ-secretase modulator
+,,,,iPSCs,Decreased amount of Aβ42 in iPSCs after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of extracellular Aβ 40 by neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of extracellular Aβ 42 by neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of total Aβ in neurons after treatment with γ-secretase inhibitor
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased amount of Aβ42 in neurons
+,,,,Neurons,Increased production of Aβ37 in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Increased production of Aβ39 in neurons after treatment with γ-secretase modulator
+PSEN1,Alzheimer's,H163R,25285942,Neurons,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased amount of Aβ42 in neurons
+PSEN1,Alzheimer's,M146L,25285942,Neurons,Decreased Aβ42:Aβ40 ratio in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Decreased amount of Aβ42 in neurons after treatment with γ-secretase modulator
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased amount of Aβ42 in neurons
+PSEN2,Alzheimer's,N141I,21900357,Neurons,Decreased amount of extracellular Aβ 42 by neurons after treatment with γ-secretase inhibitor
+,,,,Neurons,Decreased amount of extracellular Aβ 42 by neurons by treatment with a selective Aβ42-lowering agent
+,,,,Neurons,Increased Aβ42/40 ratio in neurons
+,,,,Neurons,Increased extracellular Aβ42 by neurons
+Parkin,Parkinson's,Deletions on Exons 3 and/or 5,22314364,Neurons,Decreased amount of DAT-binding sites on neurons
+,,,,Neurons,Decreased binding of CFT in neurons
+,,,,Neurons,Decreased dopamine reuptake by neurons
+,,,,Neurons,Increased MAO A and B transcription in neurons
+,,,,Neurons,Increased MAO-A and MAO-B enzymatic activities in neurons
+,,,,Neurons,Increased amount of protein carbonyls in neurons
+,,,,Neurons,Increased dopamine-induced oxidative stress in neurons
+,,,,Neurons,Increased spontaneous dopamine release by neurons
+Parkin,Parkinson's,Deletions of Exons 3 and 5 (Homozyg.),25332110,Neurons,Decrease in polymerized tubulin in pellet fractions in neurons
+,,,,Neurons,Decrease in size of neurites in neurons
+,,,,Neurons,Decreased microtubule stability in neurons
+,,,,Neurons,Decreased neurite complexity in neurons
+,,,,Neurons,Decreased neurite complexity in neurons after treatment with colchicine
+,,,,Neurons,Decreased neurite length in neurons after treatment with colchicine
+,,,,Neurons,Decreased number of branch points in neurons
+,,,,Neurons,Decreased number of branch points in neurons after treatment with colchicine
+,,,,Neurons,Decreased number of terminals in neurons
+,,,,Neurons,Decreased number of terminals in neurons after treatment with colchicine
+,,,,Neurons,Increase in free tubulin in neurons
+,,,,Neurons,Increased neurite complexity after treatment with taxol in neurons
+,,,,Neurons,Increased neurite length after treatment with taxol in neurons
+,,,,Neurons,Increased number of branch points after treatment with taxol in neurons
+,,,,Neurons,Increased number of terminals after treatment with taxol in neurons
+Parkin,Parkinson's,Deletions of Exons 3 and 5,25332110,Neurons,Decrease in polymerized tubulin in pellet fractions in neurons
+,,,,Neurons,Decrease in size of neurites in neurons
+,,,,Neurons,Decreased microtubule stability in neurons
+,,,,Neurons,Decreased neurite complexity in neurons
+,,,,Neurons,Decreased neurite complexity in neurons after treatment with colchicine
+,,,,Neurons,Decreased neurite length in neurons after treatment with colchicine
+,,,,Neurons,Decreased number of branch points in neurons
+,,,,Neurons,Decreased number of branch points in neurons after treatment with colchicine
+,,,,Neurons,Decreased number of terminals in neurons
+,,,,Neurons,Decreased number of terminals in neurons after treatment with colchicine
+,,,,Neurons,Increase in free tubulin in neurons
+,,,,Neurons,Increased neurite complexity after treatment with taxol in neurons
+,,,,Neurons,Increased neurite length after treatment with taxol in neurons
+,,,,Neurons,Increased number of branch points after treatment with taxol in neurons
+,,,,Neurons,Increased number of terminals after treatment with taxol in neurons
+SCN1A,Dravet Syndrome,Mutation on 4933C>T,23639079,Neurons,Decrease in action potentials in marked amplitude attenuation in GABAergic neurons
+,,,,Neurons,Decreased amount of action potential firing in GABAergic neurons
+,,,,Neurons,Decreased output capacity of GABAergic neurons during intense stimulation
+SCN1A,Dravet Syndrome,IVS14+3A>T,23821540,Neurons,Decreased threshold for action potential generation in neurons
+,,,,Neurons,Increased amount of depolarized resting membrane potentials (bipolar shaped neurons)
+,,,,Neurons,Increased excitability in neurons
+,,,,Neurons,Increased mean sodium current densities in neurons
+,,,,Neurons,Increased repetitive firing potential in neurons
+,,,,Neurons,Increased sodium current in neurons
+,,,,Neurons,Presence of spontaneous repetitive firing activity in neurons
+SHANK3,Phelan-Mcdermid Syndrome,Deletion,24132240,Neurons,Decreased amount of excitatory synapses in neurons
+,,,,Neurons,Decreased amplitude of spontaneous excitatory post-synaptic currents in neurons
+,,,,Neurons,Decreased amplitude of spontaneous synaptic events in neurons
+,,,,Neurons,Decreased current size generation in response to focal application of AMPA in neurons
+,,,,Neurons,Decreased current size generation in response to focal application of NMDA in neurons
+,,,,Neurons,Decreased frequency of spontaneous excitatory post-synaptic currents in neurons
+,,,,Neurons,Decreased frequency of spontaneous synaptic events in neurons
+,,,,Neurons,Decreased input resistance after treatment with IGF1 in neurons
+,,,,iPSCs,Decreased production of neurons in iPSCs
+,,,,Neurons,Impairment of AMPA-mediated synaptic transmission in neurons
+,,,,Neurons,Impairment of NMDA-mediated synaptic transmission in neurons
+,,,,Neurons,Restored amplitude of evoked AMPA excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Neurons,Restored amplitude of evoked NMDA excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Neurons,Restoration of the number of SYN1 HOMER1 puncta after treatment with IGF1 in neurons
+,,,,Neurons,Increased amplitude of spontaneous excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Neurons,Increased current size generation in response to focal application of NMDA after treatment with IGF1 in neurons
+,,,,Neurons,Increased frequency of spontaneous excitatory post-synaptic currents after treatment with IGF1 in neurons
+,,,,Neurons,Increased input resistance in neurons
+,,,,Neurons,Increased rate of decay of NMDA-excitatory post-synaptic currents in neurons
+,,,,Neurons,Rescue of synaptic transmission after treatment with IGF1 in neurons
+SMN1,Spinal Muscular Atrophy,(Not Specified),19098894,Astrocytes,Absence of nuclear gems (SMN protein nuclear foci) in astrocytes
+,,,,Neurons,Absence of nuclear gems (SMN protein nuclear foci) in neurons
+,,,,Neurons,Decreased amount of motor neurons
+,,,,Astrocytes,Decreased levels of SMN protein in astrocytes
+,,,,Neurons,Decreased levels of SMN protein in neurons
+,,,,Neurons,Decreased neuron size
+,,,,Neurons,Decreased size of motor neurons
+,,,,Astrocytes,Increased SMN protein levels in astrocytes after treatment with valproic acid
+,,,,Neurons,Increased SMN protein levels in neurons after treatment of tobramycin
+,,,,Neurons,Increased SMN protein levels in neurons after treatment of valproic acid
+,,,,Neurons,Increased amount of nuclear gems (SMN protein nuclear foci) in neurons after treatment of tobramycin
+,,,,Neurons,Increased amount of nuclear gems (SMN protein nuclear foci) in neurons after treatment with valproic acid
+,,,,Astrocytes,Increased amounts of nuclear gems (SMN protein nuclear foci) in astrocytes after treatment with tobramycin
+,,,,Astrocytes,Increased amounts of nuclear gems (SMN protein nuclear foci) in astrocytes after treatment with valproic acid
+,,,,Astrocytes,Increased levels of SMN protein levels in astrocytes after treatment with tobramycin
+SMN1,Spinal Muscular Atrophy,(Not Specified),21956898,Neurons,Decreased capacity to generate motor neurons
+,,,,Neurons,Decreased neurite outgrowth in neurons
+SMN1,Spinal Muscular Atrophy,(Not Specified),22723941,Neurons,Decreased amount of SMI-32+ neurons at time of late differentiation in neurons
+,,,,Neurons,Decreased amount of cellular processes from neurons
+,,,,Neurons,Decreased amount of motor neurons
+,,,,Neurons,Decreased amount of total cell body volume in neurons
+,,,,Neurons,Impairment of the Fas-mediated pathway in motor neurons after exposure to antagonist ZB4 clone of anti-FAS monoclonal antibody (FasNT Ab)
+,,,,Neurons,Impairment of the Fas-mediated pathway in motor neurons after exposure to caspase-3 specific inhibitor Z-DVED-FMK
+,,,,Neurons,Increase activation of initiator procaspase-8 to its cleaved form in neurons
+,,,,Neurons,Increased amount of cleaved caspase-8 positive neurons
+,,,,Neurons,Increased amount of membrane bound Fas-ligand in neurons
+,,,,Neurons,Increased percentage of apoptotic neurons
+,,,,Neurons,Increased positive staining for cleaved caspase-3 in neurons
+SMN1,Spinal Muscular Atrophy,(Not Specified),23253609,Neurons,Absence of nuclear gems (SMN protein nuclear foci) in neurons
+,,,,Neurons,Decrease in growth cone size in neurons
+,,,,Neurons,Decrease in mean length of axons in neurons
+,,,,Neurons,Decreased motor neuron survival
+,,,,Neurons,Decreased neuromuscular junction size of neurons
+,,,,Neurons,Decreased neuron size
+,,,,Neurons,Presence of fewer/smaller end plates in motor neurons
+SMN1,Spinal Muscular Atrophy,Deletion of Exons 7 and 8,26190808,Neurons,Decrease in Na+ channel inactivation recovery time in motor neurons
+,,,,Neurons,Increased Na+ current in motor neurons
+,,,,Neurons,Increased excitability in neurons
+,,,,Neurons,Increased membrane resistance in motor neurons
+SNCA,Parkinson's,Triplication,21863007,Neurons,Accumulation of SNCA in dopaminergic neurons
+,,,,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Decreased levels of SNCG expression in neurons
+SNCA,Parkinson's,Triplication,22110584,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Increased amount of caspase-3 positive TH neurons after exposure to hydrogen peroxide
+,,,,Neurons,Increased apoptotic susceptibility in dopaminergic neurons
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased susceptibility of neuronal intrinsic aberrant protein aggregation and stress
+,,,,Neurons,Increased susceptibility of neurons to hydrogen peroxide
+SNCA,Parkinson's,A53T,24158904,Neurons,"Accumulation of ER-associated degradation substances (Gcase, Nicastrin) in neurons"
+,,,,Neurons,"Decreased accumulation of ER-associated degradation substrates (Gcase, Nicastrin) in neurons after treatment with NAB2 "
+,,,,Neurons,Decreased levels of ER stress in neurons after treatment with NAB2
+,,,,Neurons,Decreased levels of nitrative stress in neurons after treatment with NAB2
+,,,,Neurons,Decreased ratio of post ER-to-ER forms in neurons
+,,,,Neurons,Increase in levels of nitrative stress in neurons
+,,,,Neurons,Increased ER stress in neurons
+,,,,Neurons,Increased ratio of post ER-to-ER forms in neurons after treatment with NAB2
+SNCA,Parkinson's,A53T,24290359,Neurons,Accumulation of oligomerized α-synuclein in neurons
+,,,,Neurons,Decreased protein expression levels of NURR1 and TH in neurons
+,,,,Neurons,Impaired maximal rate of mitochondrial respiration in neurons
+,,,,Neurons,Increase in basal levels of NO (RNS) in neurons
+,,,,Neurons,Increased ROS levels in basal conditions in neurons
+,,,,Neurons,Increased accumulation of NO in neurons after exposure to mitochondrial toxins (Paraquat or Maneb)
+,,,,Neurons,Increased damage to neurons by inhibition of SOH-MEF2C (Sulfenated-myocyte enhancer factor 2C)  after exposure to Paraquat
+,,,,Neurons,Increased damage to neurons by inhibition of SOH-MEF2C (Sulfenated-myocyte enhancer factor 2C) after exposure to Manganese ethylnebisdithiocarbamate
+,,,,Neurons,Increased damage to neurons by inhibition of SOH-MEF2C (Sulfenated-myocyte enhancer factor 2C) after exposure to hydrogen peroxide
+,,,,Neurons,Increased susceptibility of neurons to rotenone mediated-apoptosis
+,,,,Neurons,Increased susceptibility to Manganese ethylnebisdithiocarbamate mediated-apoptosis in neurons
+,,,,Neurons,Increased susceptibility to Paraquat mediated-apoptosis in neurons
+,,,,Neurons,Presence of Lewy neurite/body-like α-synuclein deposition in neurons
+SNCA,Parkinson's,Triplication,25046995,Neurons,Accumulation of monomeric α-synuclein in neurons
+,,,,Neurons,Increased levels of secreted α-synuclein by neurons that can be reuptaken by neighboring neurons
+SOD1,Amyotrophic Lateral Sclerosis,A4V,24704493,Neurons,Absence of neurofilament aggregation-induced mitochondrial swelling in motor neurons
+,,,,Neurons,Absence of neurofilament aggregation-induced vacuole formation in motor neurons
+,,,,Neurons,Accumulation of neurofilament aggregation in motor neurons
+,,,,Neurons,Decreased motor neuron survival
+SOD1,Amyotrophic Lateral Sclerosis,D90A,24704493,Neurons,Absence of neurofilament aggregation-induced mitochondrial swelling in motor neurons
+,,,,Neurons,Absence of neurofilament aggregation-induced vacuole formation in motor neurons
+,,,,Neurons,Accumulation of neurofilament aggregation in motor neurons
+,,,,Neurons,Decreased neurite degeneration in motor neurons by induction of exogenous NF-L after treatment with Dox (doxycycline)
+,,,,Neurons,Decreased neurofilament aggregation in motor neurons by induction of exogenous NF-L after treatment with Dox (doxycycline)
+,,,,Neurons,"Increase in SOD1 aggregates in cytoplasm, nuclei and neurites of motor neurons"
+,,,,Neurons,Increased neurite degeneration in motor neurons
+,,,,Neurons,"Recovery of neurofilament subunit proportion (NF-H, NF-M and NF-L) in motor neurons by induction of exogenous NF-L after treatment with Dox (doxycycline)"
+Sporadic Alzheimer's,Alzheimer's,AD8K213,23434393,Astrocytes,Decrease in ROS in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Increased ER stress in astrocytes
+,,,,Astrocytes,Increased oxidative stress in astrocytes
+,,,,Astrocytes,Decreased levels of binding protein (BiP) in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Accumulated Aβ oligomers in astrocytes
+,,,,Astrocytes,Decreased amount of Aβ oligomers in astrocytes after treatment with β-secretase inhibitor
+,,,,Astrocytes,Increased binding protein (BiP) levels in astrocytes
+,,,,Astrocytes,Increased ROS levels in basal conditions in astrocytes
+,,,,Neurons,Accumulation of Aβ oligomers in neurons
+,,,,Neurons,Increased ER stress in neurons
+,,,,Neurons,Decreased ROS in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased levels of binding protein (BiP) in neurons
+,,,,Neurons,Decreased levels of binding protein (BiP) in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Decreased levels of binding protein (BiP) in neurons after treatment with DHA
+,,,,Neurons,Increased ROS levels in basal conditions in neurons
+,,,,Neurons,Decreased amount of Aβ-oligomers in neurons with β-secretase inhibitor treatment
+,,,,Neurons,Decreased ROS in neurons after treatment with β-secretase inhibitor
+,,,,Neurons,Increased oxidative stress in neurons
+MAPT,Tauopathies,A152T,24319659,Neurons,Decrease in size of neurites
+,,,,Neurons,Impaired neuronal network connectivity in glutamatergic neurons
+,,,,Neurons,Increased amount of caspase-cleaved TAU fragmentation in neurons
+,,,,Neurons,Increased neurite fragmentation/ degeneration in GABA neurons
+,,,,Neurons,Increased neurite fragmentation/ degeneration in glutamate neurons
+,,,,Neurons,Increased susceptibility to TAU-A152T-induced neurotoxicity in DA neurons
+,,,,Neurons,Presence of AT8-positive p-TAU in predominant and punctate locations in axons of neurons
+,,,,Neurons,Presence of constricted/ tapered neurites in neurons
+,,,,Neurons,Presence of mild degeneration of neuronal processes
+,,,,Neurons,Presence of severe axonal degeneration in neurons
+TDP-43,Amyotrophic Lateral Sclerosis,M337V,22451909,Neurons,Decreased survival of neurons
+,,,,Neurons,Increased levels of soluble and detergent-resistant TDP-43 protein in neurons
+,,,,Neurons,Increased susceptibility of neurons to antagonism of the PI3K pathway
+TDP-43,Amyotrophic Lateral Sclerosis,Q343R,22855461,Neurons,Accumulation of TDP-43 in neurons
+,,,,Neurons,Accumulation of TDP-43 pre-inclusion like aggregates in cytoplasm in neurons
+,,,,Neurons,Decrease in size of neurites
+,,,,Neurons,Decreased amount of TDP-43 insoluble fractions in neurons after exposure to anacardic acid
+,,,,Neurons,Decreased motor neuron survival
+,,,,Neurons,Decreased susceptibility of neurons to arsenite-induced death after exposure to anacardic acid
+,,,,Neurons,Increase in detergent-insoluble TDP-43 in neurons
+,,,,Neurons,Increase in susceptibility of neurons to death after exposure to arsenite
+,,,,Neurons,Increased amount of SNRPB2 bound to TDP-43 in neurons
+,,,,Neurons,Increased neurite length in neurons after exposure to anacardic acid
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased percentage of neurons containing cytoplasmic TDP-43
+TDP-43,Amyotrophic Lateral Sclerosis,M337V,22855461,Neurons,Accumulation of TDP-43 in neurons
+,,,,Neurons,Accumulation of TDP-43 pre-inclusion like aggregates in cytoplasm in neurons
+,,,,Neurons,Decrease in size of neurites
+,,,,Neurons,Decreased amount of TDP-43 insoluble fractions in neurons after exposure to anacardic acid
+,,,,Neurons,Increased amount of TDP-43 insoluble fractions in neurons after exposure to arsenite
+,,,,Neurons,Decreased susceptibility of neurons to arsenite-induced death after exposure to anacardic acid
+,,,,Neurons,Increase in detergent-insoluble TDP-43 in neurons
+,,,,Neurons,Increase in susceptibility of neurons to death after exposure to arsenite
+,,,,Neurons,Increased amount of SNRPB2 bound to TDP-43 in neurons
+,,,,Neurons,Increased neurite length in neurons after exposure to anacardic acid
+,,,,Neurons,Increased oxidative stress in neurons
+,,,,Neurons,Increased percentage of neurons containing cytoplasmic TDP-43
+TDP-43,Amyotrophic Lateral Sclerosis,G298S,22855461,Neurons,Decrease in size of neurites
+,,,,Neurons,Decreased amount of TDP-43 insoluble fractions in neurons after exposure to anacardic acid
+,,,,Neurons,Increase in detergent-insoluble TDP-43 in neurons
+,,,,Neurons,Increased neurite length in neurons after exposure to anacardic acid
+TDP-43,Amyotrophic Lateral Sclerosis,M337V,23401527,Astrocytes,Increased risk of death in astrocytes under basal conditions
+,,,,Astrocytes,Presence of mislocalization of TDP-43 protein in cytoplasm of astrocytes
+,,,,Astrocytes,Accumulation of soluble TDP-43 in astrocytes
+TDP-43,Amyotrophic Lateral Sclerosis,(Not Specified),25580746,Neurons,Decreased K+ currents in motor neurons
+,,,,Neurons,Decreased Na+ currents in motor neurons
+,,,,Neurons,Decreased action potential output in motor neurons
+,,,,Neurons,Decreased synaptic activity in motor neurons
+,,,,Neurons,Decreased synaptic input in motor neurons
+,,,,Neurons,Increased excitability in neurons
+TLR3,Childhood HSE,(Not Specified),23103873,Neurons,Decreased susceptibility of neurons to HSV-1 infection after treatment with exogenous IFN-Aβ
+,,,,Neurons,Increased replication speed of HSV-1-GFP in neurons
+,,,,Neurons,Rescued replication speed of HSV-1-GFP in neurons after treatment with IFN-α2b
+,,,,Neurons,Rescued replication speed of HSV-1-GFP in neurons after treatment with IFN-β
+,,,,Neurons,Increased susceptibility of neurons to HSV-1 infection
+UNC-93-B,Childhood HSE,(Not Specified),23103873,Astrocytes,Decreased levels of IFN-λ production in astrocytes
+,,,,Neurons,Decreased susceptibility of neurons to HSV-1 infection after treatment with exogenous IFN-Aβ
+,,,,Oligodendrocytes,Decreased susceptibility of oligodendrocytes to HSV-1 infection after treatment with exogenous IFN-α/ β
+,,,,Oligodendrocytes,Impaired induction of IFN-β and IFN-γ by oligodendrocytes following HSV-1 infection
+,,,,NSCs,Impaired induction of IFN-β and IFN-λ by NSCs after exposure to polyinosinic:polycytidylic acid
+,,,,Astrocytes,Impaired induction of IFN-β and IFN-λ by astrocytes after exposure to polyinosinic:polycytidylic acid
+,,,,Oligodendrocytes,Impaired induction of IFN-β and IFN-λ by oligodendrocytes after exposure to polyinosinic:polycytidylic acid
+,,,,Oligodendrocytes,Impaired induction of MX1 (IFN-inducible molecule) by oligodendrocytes following HSV-1 infection
+,,,,Neurons,Impairment of neuronal induction of IFN-β and IFN-γ in response to HSV-1 infection
+,,,,Neurons,Impairment of neuronal induction of IFN-β and IFN-λ in response to polyinosinic:polycytidylic acid
+,,,,Neurons,Increased susceptibility of neurons to HSV-1 infection
+,,,,Oligodendrocytes,Increased susceptibility of oligodendrocytes to HSV-1 infection
+,,,,Neurons,Increased replication speed of HSV-1-GFP in neurons
+,,,,Neurons,Rescued replication speed of HSV-1-GFP in neurons after treatment with IFN-α2b
+,,,,Neurons,Rescued replication speed of HSV-1-GFP in neurons after treatment with IFN-β
+,,,,NSCs,Impaired reductions in HSV-1-GFP replication levels in NSCs after treatment with polyinosinic:polycytidylic acid
+,,,,Astrocytes,Decreased levels of IFN-γ production in astrocytes
+,,,,Oligodendrocytes,Increased replication speed of HSV-1-GFP in oligodendrocytes
+,,,,Oligodendrocytes,Rescued replication speed of HSV-1-GFP in oligodendrocytes after treatment with IFN-α2b
+,,,,Oligodendrocytes,Rescued replication speed of HSV-1-GFP in oligodendrocytes after treatment with IFN-β

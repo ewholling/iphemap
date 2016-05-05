@@ -14,9 +14,9 @@ class Study(models.Model):
   disease_patients    = models.CharField(max_length=1000)
   control_patients    = models.CharField(max_length=1000)
   utilization         = models.BooleanField(default=False)
-  geoid               = models.CharField(max_length=1000)
-  platform_name       = models.CharField(max_length=1000)
-  platform_geo_id     = models.CharField(max_length=1000)
+  geoid               = models.CharField(max_length=1000, default='')
+  platform_name       = models.CharField(max_length=1000, default='')
+  platform_geo_id     = models.CharField(max_length=1000, default='')
   pmid                = models.IntegerField(default=0)
   
   def __str__(self):
