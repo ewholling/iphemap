@@ -1,0 +1,75 @@
+First Author,Disease,Gene/Mutation,Species,Year,Reprogamming ,Starting Cell Type,Number of Disease Patients Studied,Number of Control Patients,Utilization of Gene-Editing or Isogenetic Cell Lines,Generated  Cell Type,GEO ID,Platform Name,Platform GEO,references/ PMID
+Muratore,Alzheimer's Disease,APP/ V717I,Homo sapiens,2014,"lentiviruses encoding Oct4, SOX2, cMYC and KLF4",Fibroblast,2,4,No,Neurons, -, -, -,PMID: 24524897
+Kondo,Alzheimer's Disease,"APP/ E693Δ, APP/ V717I, Spordic/AD8K213",Homo sapiens,2013,Human complementary DNA by episomal vectors,Fibroblast,"3, 2, 2",3,No,"Neurons, Astrocytes",GSE43326,HuGene-1_0-st,GPL6244,PMID: 23434393
+Tagi,Alzheimer's Disease,"PSEN1/ A246E, PSEN2/ N141I",Homo sapiens,2011,"retroviral transduction of OCT4, SOX2, KLF4, LIN28 and NANOG",Fibroblast,"1, 1",1,No,Neurons,GSE28450,Agilent-022060,GPL10123,PMID: 21900357
+Sproul,Alzheimer's Disease,PSEN1/ A246E,Homo sapiens,2014,"Oct4, KLF4, Sox2, and c-Myc retroviruses",Fibroblast,4,1,No,NSCs, -, -, -,PMID: 24416243
+Koch,Alzheimer's Disease,PSEN1/ L166P,Homo sapiens,2012,Lentiviral Backbone (1-α (EF1α) promoter and IRES),Fibroblast,1,1,No,Neurons, -, -, -,PMID: 22510327
+Isreal,Alzheimer's Disease,APP/ Duplication,Homo sapiens,2012,"MMLV vectors containing the complementary DNAs for OCT4, SOX2, KLF4, c-MYC and ± EGFP",Fibroblast,2,2,No,Neurons, -, -, -,PMID: 22278060
+Schöndorf,Parkinson's Disease,"GBA1/ L444P, GBA1/ N370S",Homo sapiens,2014,"retroviruses encoding OCT4, SOX2, KLF4 and c-MYC",Fibroblast,4,2,Yes ,Neurons, -, -, -,PMID: 24905578
+Liu,Parkinson's Disease,LRRK2/ G2019S,Homo sapiens,2012,"retroviruses expressing OCT4, SOX2, KLF4",Fibroblast,2,1,Yes ,NSCs,GSE34061,HiSeq 2000,GPL11154,PMID: 23075850
+Nguyen ,Parkinson's Disease,LRRK2/ G2019S,Homo sapiens,2011,"retroviruses of  OCT4, SOX2, and KLF4",Fibroblast,1,1,No,Neurons, -, -, -,PMID: 21362567
+Reinhardt,Parkinson's Disease,LRRK2/ G2019S,Homo sapiens,2013,"retroviruses containing human Oct3/4, Sox2, Klf4, and c-Myc",Fibroblast,2,4,Yes ,Neurons,GSE43364,illumina HumanHT-12 v4,GPL10558,PMID: 23472874
+Sanders,Parkinson's Disease,"LRRK2/ G2019S, LRRK2/R1441C",Homo sapiens,2013,"retroviruses of OCT4, SOX2, KLF4 and CMYC",Fibroblast,"5, 3",3,Yes ,NSCs, -, -, -,PMID: 24148854
+Sánchez-Danés,Parkinson's Disease,LRRK2/ G2019S,Homo sapiens,2012,"retroviruses encoding FLAG-tagged OCT4, SOX2 and KLF4",Fibroblast,4,4,No,Neurons, -, -, -,PMID: 22407749
+Cooper,Parkinson's Disease,"LRRK2/ G2019S, LRRK2/R1441C, PINK1/ Q456X",Homo sapiens,2012,"retroviruses of OCT4, SOX2, KLF4 and c-MYC",Fibroblast,"3, 2, 2",2,No,Neurons, -, -, -,PMID: 22764206
+Reyes,Parkinson's Disease,SNCA/ Triplication,Homo sapiens,2014,"Retroviruses of Oct4, Sox2, c-Myc, Klf4",Fibroblast,3,1,No,Neurons, -, -, -,PMID: 25046995
+Byers,Parkinson's Disease,SNCA/ Triplication,Homo sapiens,2011,"Retroviral gene insertion of OCT4, SOX2, KLF4, and c-MYC",Fibroblast,1,1,No,Neurons, -, -, -,PMID: 22110584
+Devine,Parkinson's Disease,SNCA/ Triplication,Homo sapiens,2011,"pMXs-cMyc #13375, pMXs-Klf4 #13370, pMXs-Oct4 #13366, pMXs-Sox2 #13367 reprogramming factors from Addgene",Fibroblast,1,1,No,Neurons,GSE28366.,HumanOmni1-Quad ,GPL8882, PMID: 21863007
+Chung,Parkinson's Disease,SNCA/ Triplication,Homo sapiens,2013,"Cre-excisable polycistronic lentivirus encoding SOX2, KLF4, OCT4 and c-MYC",Fibroblast,1,1,Yes ,Neurons, -, -, -,PMID: 24158904
+Ryan,Parkinson's Disease,SNCA/ A53T,Homo sapiens,2013,"retroviruses of OCT4, KLF4, SOX2, and c-MYC",Fibroblast,2,1,Yes ,Neurons,GSE46798,Illumina HumanHT-12 v4,GPL10558,PMID: 24290359
+Jiang,Parkinson's Disease,Parkin/ Deletions on exons 3 and 5,Homo sapiens,2012,"FUW-tetO-LoxP lentiviruses: hOct4, hSox4, hKlf4 and hNanog",Fibroblast,2,2,No,Neurons,GSE35190,RPCI Human HB21K,GPL15098,PMID: 22314364
+Imaizumi,Parkinson's Disease,Parkin/ Deletions on exons 3 and 5,Homo sapiens,2012,"retroviruses carrying Oct4, Sox2, Klf4, and c-Myc",Fibroblast,2,2,No,Neurons, -, -, -,PMID: 23039195
+Rakovic,Parkinson's Disease,PINK1/ Q456X,Homo sapiens,2012,"Retroviral pMIG vectors OCT4, SOX2, cMYC and KLF4",Fibroblast,2,1,No,Neurons, -, -, -,PMID: 23212910
+Seibler,Parkinson's Disease,"PINK1/ Q456X, PINK1/ V170G",Homo sapiens,2011,"Retroviral pMIG vectors OCT4, SOX2, cMYC and KLF4",Fibroblast,3,1,No,Neurons, -, -, -,PMID: 21508222
+Xia,Dystrophia Myotonica type 1,DMPK/CTG repeats,Homo sapiens,2013,"retroviral transduction of hOct4, hSox2, hKlf4, and hc-Myc",Fibroblast,2,1,No,"Neurons, NSCs, Astrocytes, iPSCs", -, -, -,PMID: 23550732
+Corti,Spinal Muscular Atrophy,SMN1/ not specified,Homo sapiens,2012,"oriP/EBNA1-based episomal vectors of OCT4, SOX2, NANOG, LIN28, c-Myc, and KLF4 by nucleofection",Fibroblast,2,2,No,Neurons,GSE27206,HG-U133_Plus_2,GPL570,PMID: 23253609
+Chang,Spinal Muscular Atrophy,SMN1/ not specified,Homo sapiens,2011,"retroviral vectors containing Oct4, Sox2, c-Myc, Klf4",Fibroblast,1,1,Yes ,Neurons, -, -, -,PMID: 21956898
+Ebert,Spinal Muscular Atrophy,SMN1/ not specified,Homo sapiens,2009,"Lentiviral infection of primers for OCT 4, SOX 2, NANOG, LIN 28, HoxB4, SMN, and GAPDH ",Fibroblast,1,1,No,"Neurons, Astrocytes",GSE13828,HG-U133_Plus_2,GPL570 ,PMID: 19098894
+Sareen,Spinal Muscular Atrophy,SMN1/ not specified,Homo sapiens,2012,"Lentiviral infection of primers for OCT 4, SOX 2, NANOG, LIN 28, HoxB4, SMN, and GAPDH ",Fibroblast,2,1,No,Neurons, -, -, -,PMID: 22723941
+Lafaille,Childhood HSE,"UNC-93-B/ not specified, TLR3/ not specified",Homo sapiens,2012,"polycistronic lentiviral pHAGE–STEMCCA–LoxP vector, carrying the OCT4, SOX2, KLF4, and C-MYC reprogramming factor genes",Fibroblast,"1, 1",1,No,"Neurons, NSCs, Astrocytes, Oligodendrocytes",GSE40593,Illumina HumanWG-6 v3.0,GPL6884,PMID: 23103873
+Marchetto,Rett Syndrome,MeCP2/ Q244X,Homo sapiens,2010,"Retrovirus vectors containing the Oct4, c-Myc, Klf4 and Sox2 ",Fibroblast,4,5,No,Neurons,GSE21037,HuGene-1_0-st,GPL6244,PMID: 21074045
+Kim,Rett Syndrome,MeCP2/ Q244X,Homo sapiens,2011,"pMIG retrovirus expressing OCT4, SOX2, KLF4, and MYC",Fibroblast,5,5,No,"Neurons, NSCs, iPSCs", -, -, -,PMID: 21807996
+Ricciardi,Rett Syndrome,"CDKL5/ R59X, CDKL5/ L220P",Homo sapiens,2012,"retrovirus infection of OCT4, SOX2 and KLF4",Fibroblast,"2, 2",2,No,Neurons, -, -, -,PMID: 22922712
+Koch,Spinocerebellar Ataxia Type 3,ATXN3/ CAG repeats,Homo sapiens,2011,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,1,2,No,Neurons, -, -, -,PMID: 22113611
+Almeida,Frontotemporal dementia, PGRN/ S116X,Homo sapiens,2012,"retroviruses encoding human OCT3/4, SOX2, KLF4, and c-MYC",Fibroblast,1,1,No,Neurons,GSE40378,illumina HumanHT-12 v4,GPL10558,PMID: 23063362
+Almeida,Frontotemporal dementia/Amyotrophiclateral sclerosis,C9ORF72/ GGGGCC repeats,Homo sapiens,2013,"retroviruses expressing human OCT3/4, SOX2, KLF4, and c-MYC",Fibroblast,2,1,No,Neurons, -, -, -,PMID: 23836290
+Sareen,Frontotemporal dementia/Amyotrophiclateral sclerosis,C9ORF72/ GGGGCC repeats,Homo sapiens,2013,"pCXLE-hUL, pCXLE-hSK, and pCXLE-hOCT3/4-shp53-F vectors",Fibroblast,4,4,No,"Neurons, NSCs, Astrocytes",GSE52202,HiSeq 2000,GPL11154,PMID: 24154603
+Bilican,Amyotrophic lateral sclerosis,TDP-43/ M337V,Homo sapiens,2012,"Retroviral pMIG vectors OCT4, SOX2, cMYC and KLF4",Fibroblast,1,2,No,Neurons, -, -, -,PMID: 22451909
+Egawa,Amyotrophic lateral sclerosis,"TDP-43/ M337V, TDP-43/ Q343R, TDP-43/ G298S",Homo sapiens,2012,"retrovirus of Sox2, Klf4, Oct3/4, and/or c-Myc or episomal vectors of Sox2, Klf4, Oct3/4, L-Myc, Lin28, and short hairpin RNA for p53",Fibroblast,"3, 3, 3",5,No,Neurons, -, -, -,PMID: 22855461
+Serio,Amyotrophic lateral sclerosis,TDP-43/ M337V,Homo sapiens,2013,"Retroviruses encoding Oct4, Sox2, Klf4 and Myc",Fibroblast,1,2,No,Astrocytes, - , -, -, PMID: 23401527
+Chen,Amyotrophic lateral sclerosis,"SOD1/ D90A, SOD1/ A4V",Homo sapiens,2014,"nonintegrating Sendai virus of OCT4, SOX2, KLF4 and c-MYC, Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,"1, 1",2,Yes ,Neurons, - , -, -,PMID: 24704493
+Pasca,Timothy Syndrome,CACNA1C/ CaV1.2,Homo sapiens,2012,"retroviruses expressing SOX2, OCT3/4, KLF4 and C-MYC ",Fibroblast,2,3,No,Neurons,GSE25542,Illumina HumanRef-8 v3.0,GPL6883,PMID: 22120178
+Zhang,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2010,"VSVg retroviruses of Sox2, Klf4, Oct3/4, and/or c-Myc",Fibroblast,1,1,No,NSCs, -, -, -,PMID: 21037797
+An,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2012,"VSVg retroviruses of Sox2, Klf4, Oct3/4, and/or c-Myc",Fibroblast,1,1,Yes ,NSCs,GSE37547,Nimblegen Homo sapiens HG18 (12x135k) ,GPL15338 ,PMID: 22748967
+Jeon,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2012,"VSVg retroviruses of Sox2, Klf4, Oct3/4, and/or c-Myc",Fibroblast,1,3,No,iPSCs, -, -, -,PMID: 22628015
+Juopperi,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2012,"retroviral transduction of Oct3/4, Sox2, c-MYC and Klf4",Fibroblast,2,1,No,Astrocytes, -, -, -,PMID: 22613578
+Chae,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2012,"VSVg retroviruses of Sox2, Klf4, Oct3/4, and/or c-Myc",Fibroblast,2,2,No,iPSCs, -, -, -,PMID: 22694310
+Guo,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2013," VSV-g pseudotyped hSTEMCCA lentivirus containing a polycistronic coding sequence for Sox2, Klf4, Oct3/4, and/or c-Myc",Fibroblast,2,2,No,Neurons, -, -, -,PMID: 24231356
+Mattis,Huntington's Disease,HTT/ CAG repeats,Homo sapiens,2012,"lentiviral transduction of Oct4, Sox2, Klf4, cMyc, Nanog and Lin28",Fibroblast,2,2,No,"Neurons, NSCs",GSE37517,HuGene-1_0-st,GPL10739,PMID: 22748968
+Jang,X-linked adrenoleukodystrophy,"ABCD1 or ALDP/AMN patient, ABCD1 or ALDP/ CCALD patient",Homo sapiens,2011,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,"1, 1",1,No,"Neurons, Oligodendrocytes", -, -, -,PMID: 21721033
+Liu,Dravet Syndrome,SCN1A/ IVS14+3A>T,Homo sapiens,2013,"Retroviral infection of pMXs-Oct3/4, pMXs-Sox2, pMXs-Klf4, pMXs-c-Myc",Fibroblast,2,3,No,Neurons, -, -, -,PMID: 23821540
+Higurashi,Dravet Syndrome,SCN1A/ mutation on 4933C>T,Homo sapiens,2013,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,1,1,No,Neurons, -, -, -,PMID: 23639079
+Liu,Hutchinson-Gilford progeria syndrome,LMNA/ point mutation,Homo sapiens,2011,"retroviruses encoding OCT4, SOX2, KLF4, c-MYC, and GFP",Fibroblast,1,2,No,iPSCs,GSE24487,HG-U133_Plus_2,GPL570 ,PMID: 21346760
+Hick,Friedreich's Ataxia,FXN/ expanded GAA repeats ,Homo sapiens,2012," lentivirus factors OCT4, SOX2, LIN28 and NANOG ",Fibroblast,2,2,No,"Neurons, iPSCs", -, -, -,PMID: 23136396
+Sherman,Friedreich's Ataxia,FXN/  Long GAA⋅TTC repeats,Homo sapiens,2010,"VSV-G Retrovirus vectors for  Oct3/4, Sox2, Klf4, and c-Myc",Fibroblast,2,1,No,iPSCs,GSE22651,Illumina HumanHT-12 V3.0,GPL6947 ,PMID: 21040903
+Andrade,Cockayne syndrome,ERCC6/ not specified,Homo sapiens,2012,"pMXs retroviral vectors containing the human cDNA for c-Myc, Klf4, Oct3/4, Sox2 VSGV and CMVgp",Fibroblast,1,2,No,"Neurons, iPSCs",GSE36648,HuGene-1_0-st,GPL6244,PMID: 22661500
+Fong,Tauopathies,MAPT/ A152T,Homo sapiens,2013,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,1,1,Yes,Neurons, -, -, -,PMID: 24319659
+Numasawa-Kuroiwa,Pelizaeus-Merzbacher disease,PLP1/ missense,Homo sapiens,2014,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,2,2,No,Oligodendrocytes, -, -, -,PMID: 24936452
+Doers,Fragile X Syndrome,FMR1/ CGG repeats,Homo sapiens,2014,"retroviral transduction of Oct3/4, Sox2, c-MYC and Klf4",Fibroblast,3,1,Yes,Neurons, -, -, -,PMID: 24654675
+Suh,Menkes Disease,ATP7A/ c4005 + G > A,Homo sapiens,2014,"retroviral transduction of Oct3/4, Sox2, c-MYC and Klf4",Fibroblast,1,1,No,iPSCs, -, -, -,PMID: 24468087
+Higuchi,Pompe Disease,GAA/ not specified,Homo sapiens,2014,"pMX retrovirus vectors OCT3/4, SOX2, KLF4, and c-MYC.",Fibroblast,2,1,No,iPSCs, -, -, -,PMID: 24642446
+Maetzel,Niemann-Pick Type C,NPC1/ I1061T,Homo sapiens,2014,"lentiviruses encoding a polycistronic doxcycycline-inducible (DOX) for Oct4, Klf4, Sox2, c-Myc ",Fibroblast,4,2,Yes,Neurons, -, -, -,PMID: 24936472
+Mazzulli,Gaucher's Disease,GBA1/ not specified,Homo sapiens,2011,"Retroviral pMIG vectors OCT4, SOX2, cMYC and KLF4",Fibroblast,2,3,No,"iPSCs, Neurons", -, -, -,PMID: 21700325
+Ananiev,Rett Syndrome,"MeCP2/ R294X, MeCP2/ T158M, MeCP2/ V247X, MeCP2/R306C",Homo sapiens,2011,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,"1, 1, 1, 1",1,Yes,"Neurons, iPSCs", -, -, -,PMID: 21966470
+Panicker,Gaucher's Disease,"GBA1/ L444P, GBA1/ N370S",Homo sapiens,2012,"Retroviral plasmids for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,"2, 1",2,No,Neurons, -, -, -,PMID: 23071332
+Krey,Timothy Syndrome,CACNA1C/ CaV1.2,Homo sapiens,2013,"retroviral transduction of Oct3/4, Sox2, c-MYC and Klf4",Fibroblast,2,2,No,Neurons, -, -, -,PMID: 23313911
+Yoon,Schizophrenia,CYFIP1/ 15q11.2,Homo sapiens,2014,Sendai Viral Infection,Fibroblast,3,3,No,NSCs, -, -, -,PMID: 24996170
+Liu,Alzheimer's Disease,"APP/ Duplication, PSEN1/A246E, PSEN1/H163R, PSEN1/M146L",Homo sapiens,2014,"Maloney Murine Leukemia Virus infection of Oct3/4,Sox2, Klf4, and c-Myc",Fibroblast,"1, 2, 1, 1",2,No,"Neurons, NSCs, iPSCs", -, -, -,PMID: 25285942
+Ren,Parkinson's Disease,Parkin/ Deletions on exons 3 and 5,Homo sapiens,2015,"lentiviruses expressing human Oct4, Sox2, Klf4, c-Myc and Nanog",Fibroblast,2,2,No,Neurons, -, -, -,PMID: 25332110
+Devlin,Amyotrophic lateral sclerosis,"TDP-43/M337V, C9ORF72/ GGGGCC repeats",Homo sapiens,2015,"Lentivirus or Sendai vectors for OCT4, SOX2, KLF4 and c-MYC",Fibroblast,"1, 2",3,No,Neurons, -, -, -,PMID: 25580746
+Efthymiou,Niemann-Pick Type C,PLP1/ I1061T,Homo sapiens,2015,STEMCCA lentivirus system,Fibroblast,1,1,No,Neurons,GSE55379 ,Illumina HumanHT-12 V4.0 ,GPL10558,PMID: 25637190
+Liu,Amyotrophic lateral sclerosis,FUS/P525L,Homo sapiens,2015,nucleofected with 15–20 μg EVplasmid DNA using a human CD34+ Cell Nucleofector™ Kit,Fibroblast,1,1,No,Neurons , -, -, -,PMID: 25912081
+Lenzi ,Amyotrophic lateral sclerosis,"FUS/R514S, FUS/R521C, FUS/P525L",Homo sapiens,2015,"lentiviral vector hSTEMCCA for OCT4, SOX2, KLF4 and c-MYC ",Fibroblast,"1, 1, 1,",2,Yes,"Neurons, iPSCs", -, -, -,PMID: 26035390
+Ehlrich,Frontotemporal dementia,"AMPT/ N279K, MAPT/ V337M",Homo sapiens,2015," lentiviral transduction with a polycistronic vector encoding OCT4, KLF4, SOX2, and C-MYC",Fibroblast,"1, 1",3,No,Neurons, -, -, -,PMID: 26143746
+Liu,Spinal Muscular Atrophy,SMN1/ Deletion of exons 7 and 8,Homo sapiens,2015,"retrovirus for OCT4, SOX2, KLF-4 and c-MYC",Fibroblast,3,3,No,Neurons, -, -, -,PMID: 26190808
+Shcheglovitov,Phelan-McDermit Syndrome,SHANK3/ Deletion,Homo sapiens,2013,"retroviruses carrying SOX2, OCT3/4, c-MYC and KLF4 transcription factors",Fibroblast,2,2,No,"iPSCs, Neurons",-,-,-,PMID: 24132240

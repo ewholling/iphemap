@@ -5,7 +5,7 @@ import os
 import re
 import csv
 
-def new_csv(fn):
+def import_csv(fn):
   with open(fn) as f:
     reader = csv.reader(f)
     hds = next(reader)
@@ -40,7 +40,32 @@ def new_csv(fn):
     gene.save()
     print(gene, gene.snp)
           
+def extract_studies(fn):
+  Study.objects.all().delete()
 
+  with open(fn) as f:
+    reader = csv.reader(f)
+    hs = next(reader)
+
+    for l in reader:
+      s = Study(
+        first_author        = l[0],
+        disease             = l[1],
+        snp                 = l[2],
+        species             = l[3],
+        year                = int(l[4]),
+        reprogramming_type  = l[5],
+        starting_cell_type  = l[6],
+        target_cell_type    = l[10],
+        disease_patients    = l[7],
+        control_patients    = l[8],
+        utilization         = True if l[9] == 'Yes' else False,
+        geoid               = l[11] if l[11].strip() != '-' else '',
+        platform_name       = l[12] if l[12].strip() != '-' else '',
+        platform_geo_id     = l[13] if l[13].strip() != '-' else '',
+        pmid                = int(re.findall('\d+', l[14])[0]))
+      print s 
+      s.save()
 
 def extract_figures():
 	Figure.objects.all().delete()
@@ -147,45 +172,3 @@ def extract_data():
                 except ObjectDoesNotExist:
                     print 'failed to find phenotype by index.'
                 
-def extract_studies_links():
-    for s in Study.objects.all():
-        f = [g['href'] for g in gses if g.text == s.geoid]
-        h = [g['href'] for g in gpls if g.text == s.platform_geo_id]
-        if f:
-            print f
-            s.geoid_link = unidecode(f[0])
-        else:
-            s.geoid_link = ''
-        if h:
-            print h
-            s.platform_geoid_link = unidecode(h[0])
-        else:
-            s.platform_geoid_link = ''
-        s.save()
-
-def extract_studies(fn):
-  Study.objects.all().delete()
-
-  with open(fn) as f:
-    reader = csv.reader(f)
-    hs = next(reader)
-
-    for l in reader:
-      s = Study(
-        first_author        = l[1],
-        disease             = l[2],
-        snp                 = l[3],
-        species             = l[4],
-        year                = int(l[5]),
-        reprogramming_type  = l[6],
-        starting_cell_type  = l[7],
-        target_cell_type    = l[11],
-        disease_patients    = l[8],
-        control_patients    = l[9],
-        utilization         = True if l[10] == 'Yes' else False,
-        geoid               = l[12] if l[12].strip() != '-' else '',
-        platform_name       = l[13] if l[13].strip() != '-' else '',
-        platform_geo_id     = l[14] if l[14].strip() != '-' else '',
-        pmid                = int(re.findall('\d+', l[15])[0]))
-      print s 
-      s.save()

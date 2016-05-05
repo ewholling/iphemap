@@ -363,3 +363,19 @@ h4 {
   margin-top: 0px !important;
 }
 
+
+@media screen and (min-width: 1100px) {
+  .studies-table {
+    margin-left: -10%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .studies-table {
+    margin-left: -20%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .studies-table {
+    margin-left: -30%;
+  }
+}
