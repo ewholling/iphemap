@@ -274,8 +274,8 @@ td > a > img {
 
 .large li,
 .large p {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .header-image img {
@@ -283,7 +283,7 @@ td > a > img {
 }
 
 .tinted {
-  border:1px solid #ccc;
+  /*border:1px solid #ccc;*/
   padding: 30px;
 }
 
