@@ -5,7 +5,7 @@ import os
 import re
 import csv
 
-def import_csv(fn):
+def extract_all(fn):
   with open(fn) as f:
     reader = csv.reader(f)
     hds = next(reader)
@@ -93,8 +93,8 @@ def extract_figures():
 			print 'Error 2 {0}'.format(f)
 
 
-### OLD
-            
+### OLD 
+"""            
 def extract_data():
     EXCEL_DATA_START = 'E3'
     EXCEL_DATA_END = 'PT76'
@@ -172,3 +172,4 @@ def extract_data():
                 except ObjectDoesNotExist:
                     print 'failed to find phenotype by index.'
                 
+"""
