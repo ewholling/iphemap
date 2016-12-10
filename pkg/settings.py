@@ -5,7 +5,6 @@ Now hosted on VPS at
 
 import os
 import imp
-from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

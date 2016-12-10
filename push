@@ -1,0 +1,8 @@
+#!/bin/sh
+./pkg/manage.py collectstatic --noinput
+rsync -avzP pkg/ gce-i1:~/iphemap/pkg
+rsync -avzP static/ gce-i1:~/iphemap/static
+rsync -avzP venv/ gce-i1:~/iphemap/venv
+ssh gce-i1 "sudo systemctl restart uwsgi@iphemap"
+ssh gce-i1 "sudo systemctl restart nginx"
+

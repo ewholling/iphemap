@@ -63,15 +63,15 @@ def index(request):
     domain_select = request.GET.get('domain-select', '')
     disease_select = request.GET.get('disease-select', '')
 
-    diseases = sorted(list(set([p.values()[0] for p in Gene.objects.all().values('disease') if p.values()[0]])))
-    alldomains = sorted(list(set([p.values()[0] for p in Phenotype.objects.all().values('domain') if p.values()[0]])))
+    diseases = sorted(list(set([list(p.values())[0] for p in Gene.objects.all().values('disease') if list(p.values())[0]])))
+    alldomains = sorted(list(set([list(p.values())[0] for p in Phenotype.objects.all().values('domain') if list(p.values())[0]])))
     
     if len(q) > 0 or disease_select or domain_select:
         query = None
         domain_select = domain_select if domain_select != 'all' else None
         disease_select = disease_select if disease_select != 'all' else None
-        print 'filterng disease: %s' % str(disease_select)
-        print 'filterng domain: %s' % str(domain_select)
+        print('filterng disease: %s' % str(disease_select))
+        print('filterng domain: %s' % str(domain_select))
   
         if len(q) > 0:
             query = get_query(q, ['name', 'disease', 'snp', 'pmid']) | Q(phenotypes__description__icontains=q)
@@ -101,7 +101,7 @@ def index(request):
   
         for f in found:
             chosen_phenotypes = f.phenotypes.all().filter(domain__icontains = domain_select) if domain_select else f.phenotypes.all()
-            domains = sorted(list(set([p.values()[0] for p in chosen_phenotypes.all().values('domain')])))
+            domains = sorted(list(set([list(p.values())[0] for p in chosen_phenotypes.all().values('domain')])))
             f.sorted_phenotypes = []
             for d in alldomains:
                 # figures = Figure.objects.filter(pmid = f.pmid)
@@ -120,7 +120,7 @@ def index(request):
                     'showphenotypes': not len(chosen_phenotypes.filter(domain = d)) == 0,
                     'showfigures'   : any([True if fg != None else False for fg in fset]),
                     })
-                # print fset, any([True if fg != None else False for fg in fset])
+                # print(fset, any([True if fg != None else False for fg in fset]))
             f.showgenefigures = any([d['showfigures'] for d in f.sorted_phenotypes])
             f.showgenephenotypes = any([d['showphenotypes'] for d in f.sorted_phenotypes])
             # f.showgenephenotypes = True
@@ -141,8 +141,8 @@ def index(request):
 
 def genes(request):
     q = request.GET.get('search', '')
-    diseases = sorted(list(set([p.values()[0] for p in Gene.objects.all().values('disease') if p.values()[0]])))
-    alldomains = sorted(list(set([p.values()[0] for p in Phenotype.objects.all().values('domain') if p.values()[0]])))
+    diseases = sorted(list(set([list(p.values())[0] for p in Gene.objects.all().values('disease') if list(p.values())[0]])))
+    alldomains = sorted(list(set([list(p.values())[0] for p in Phenotype.objects.all().values('domain') if list(p.values())[0]])))
     allgenes = sorted(set([g.name for g in Gene.objects.all()]))
     
     if len(q) > 0:
@@ -167,7 +167,7 @@ def genes(request):
 
         for f in found:
             chosen_phenotypes = f.phenotypes.all()
-            domains = sorted(list(set([p.values()[0] for p in chosen_phenotypes.all().values('domain')])))
+            domains = sorted(list(set([list(p.values())[0] for p in chosen_phenotypes.all().values('domain')])))
             f.sorted_phenotypes = []
             for d in alldomains:
                 # figures = Figure.objects.filter(pmid = f.pmid)
