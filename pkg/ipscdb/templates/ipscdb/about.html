@@ -1,64 +1,32 @@
 {% extends "ipscdb/default.html" %}
 
 {% block content %}
-<div class="header-image">
-  <img src="static/img/header.png"/>
-</div>
 <div class="tinted">
   <h4>About</h4>
   <p>
-  iPhemap is a comprehensive, regularly updated database that
-  aims to provide a field synopsis and catalog all of the in vitro
-  neuronal disease phenotypes from induced pluripotent stem
+  The <b>iPS cell phenogenetic map project “iPhemap”</b> is comprehensive 
+  database that aims to provide a field synopsis and catalog all of the 
+  <i>in vitro</i> neuronal disease phenotypes from induced pluripotent stem
   cells (iPSCs) derived from patients with neurological diseases.
-  </p>
-
-  <p>
   You can <a href="search">search cellular and molecular phenotypes </a>
-  from <a href="/studies">79 published reports</a>. We characterized 550 distinct
-  cellular phenotypes and the resulting relationships between
-  gene and phenotype into a phenogenetic map that can be used
-  to build new hypotheses in the field of neurological disease
-  modeling, and to identify potential new opportunities to
-  design novel drug strategies.
+  from <a href="/studies">79 published reports</a>. We characterized 550 
+  distinct  cellular phenotypes and the resulting relationships between
+  gene and phenotype into a phenogenetic map that can be used to build 
+  new hypotheses in the field of neurological disease modeling, and to 
+  identify potential new opportunities to design novel drug strategies. 
+  The project comprises a comprehensive catalog of phenogenetic profiles 
+  from patient derived-iPSCs from highly curated, published reports  
+  and returns: 1) Cellular phenotypes from iPSCs, neural stem cells, 
+  oligodendrocytes, astrocytes, and neurons with genetic mutations linked
+  linked to neurological diseases. 2) Molecular phenotypes and dysregulated 
+  pathways, when available, from gene ontology analyses of gene expression 
+  profiles.
   </p>
-  
-  <p>
-  iPhemap comprises a comprehensive catalog of phenogenetic profiles from patient
-  derived-iPSCs from highly curated, published reports and returns:
-  </p>
 
-  <ol>
-    <li>
-    Cellular phenotypes reporting morphological,
-    functional, and process changes from iPSCs, NSCs,
-    oligodendrocytes, astrocytes, and neurons with
-    genetic mutations linked to neurological diseases.
-    </li>
-
-    <li>
-    Molecular phenotypes, derived from
-    microarray analysis and presented as treemaps, 
-    describing the associated gene ontology terms.    
-    </li>
-
-    <li>
-    Dysregulated pathways highlighting disrupted 
-    pathways from microarray analysis.
-    </li>
-  </ol>
-
-  <p>For details on the background and system biology methods used in iPhemap, see the <a href="research">Methods</a> section. The website is developed and maintained by the <a href="research">Imitola Laboratory</a>.</p>
-</div>
-
-<div class="tinted">
-  <img src="static/img/explain.png" style="width: 100%;">
-</div>
-
-<div class="tintedb">
-  <h4>CIting iPhemap</h4>
-  <p>Hollingsworth E, Vaughn JE, Orack JC, Skinner C, Racke MK, Khouri J, Watanabe F, Kosik KS, Imitola J  
-  <br><b>iPhemap</b>: An atlas of phenotype to genotype relationships of human induced pluripotent stem cell models of neurological diseases. 2016 <i>Submitted</i></p>
+  <div class="tintedb">
+  <h4>Citing iPhemap</h4>
+  <p>Hollingsworth, E, Vaughn JE, Orack JC, Skinner C, Racke MK, Khouri J, Watanabe F, Kosik KS, Imitola J.  
+  <br>Phenotype to genotype relationships of human induced pluripotent stem cell models of neurological diseases: The iPhemap database. (2017) <i>Submitted</i></p>
 </div>
 
 <div class="tintedc">
@@ -75,20 +43,24 @@
   <div class="tintedb blue-links">
     <h4>Links</h4>
     <a class="announcement" href="https://www.nimhgenetics.org">NIMH Repository and Genomics Resource</a>
-    <a class="announcement" href="https://www.nimhgenetics.org/stem_cells/">The NIMH Stem Cell Center, hiPSC cell line data biorepositories</a> 
+    <a class="announcement" href="https://www.nimhgenetics.org/stem_cells/">The NIMH Stem Cell Center, hiPSC Cell Line Data biorepositories</a> 
     <a class="announcement" href="http://www.ncbi.nlm.nih.gov/gap">Database of Genotypes and Phenotypes (dbGaP)</a>
-    <a class="announcement" href="http://rdocdb.nimh.nih.gov/">Clinical phenotyping data through the NIMH Data Archive</a>
+    <a class="announcement" href="http://rdocdb.nimh.nih.gov/">Clinical Phenotyping Data through the NIMH Data Archive</a>
+    <a class="announcement" href="https://genome.ucsc.edu/">Genome Browser</a>
+    <a class="announcement" href="http://www.genome.jp/kegg/genome.html">KEGG Genome</a>
+    <a class="announcement" href="https://www.encodeproject.org/">ENCODE</a>
+    <a class="announcement" href="https://www.neuroscienceblueprint.nih.gov/connectome/">NIH Connectome</a>
   </div>
 </div>
 
 <div class="tintedb">
   <h4>Development</h4>
-  <p>The <a href="/research">Imitola Laboratory</a> at The Ohio State University Neurological Institute has developed this resource for identifying phenotype-genotype relationship and cataloging curated phenotypes  in patient-derived models of neurological disease.</p>
+  <p>The <a href="/research">Imitola Laboratory</a> at The Ohio State University Neurological Institute has developed this resource for identifying phenotype-genotype relationships and cataloging curated phenotypes in patient-derived models of neurological disease.</p>
 </div>
 
 <div class="tintedb">
   <h4>Version</h4>
-  <p>The current version number is 1.1 - 102016. The most recent update to data was from the original data freeze, November 20, 2015.</p>
+  <p>The current version number is 1.1 - 122016. The most recent update to data was on date</p>
 </div>
 
 {% endblock %}
